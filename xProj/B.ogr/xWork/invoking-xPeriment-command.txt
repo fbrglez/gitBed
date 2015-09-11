@@ -1,0 +1,241 @@
+## NOTE:
+When invoking the command 'xPeriment' a single tcl file such as
+    
+     xPeriment-B.ogrT-10-MS.tcl
+
+is required -- it provides the configuration input for the experiment.
+
+As the experiment is completed, this file will be moved into the directory created to archive the experiments, next to results that have been created!!!
+
+
+
+
+triangle: xWork/ % pwd
+/Users/brglez/Sites/~SYNC/gitBed/xProj/B.ogr/xWork
+
+triangle: xWork/ % ls *.tcl
+xPeriment-B.ogrT-10-MS.tcl
+
+triangle: xWork/ % ../../../xBed/xBin/xPeriment_ogrT 
+currDir=/Users/brglez/Sites/~SYNC/gitBed/xProj/B.ogr/xWork
+thisDir=/Users/brglez/Sites/~SYNC/gitBed/xBed/xBin
+.. sourced file ./~SYNC/gitBed/xBed/xLib/file.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/format.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/list.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/util.tcl
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Thu Sep 10 22:12:21 EDT 2015 
+
+From xPeriment_ogrT.info: user-query about the command xPeriment_ogrT ... 
+   User can invoke 'xPeriment_ogrT' under any sandbox directory (xWork or similar) 
+   adjacent to xBenchm/, xBin/, xLib/ and invoke the /experiment with 
+   the command
+ 
+       ../../../xBed/xBin/xPeriment_ogrT all
+ 
+   where 'all' triggers the sourcing  of xPerimentConfigFile 
+   which must be ** the only *.tcl ** file in this directory.
+ 
+Thu Sep 10 22:12:21 EDT 2015 .. completed xPeriment_ogrT 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+triangle: xWork/ % ../../../xBed/xBin/xPeriment_ogrT all
+currDir=/Users/brglez/Sites/~SYNC/gitBed/xProj/B.ogr/xWork
+thisDir=/Users/brglez/Sites/~SYNC/gitBed/xBed/xBin
+.. sourced file ./~SYNC/gitBed/xBed/xLib/file.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/format.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/list.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/util.tcl
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Thu Sep 10 22:12:29 EDT 2015 
+.. starting xPeriment under 
+/Users/brglez/Sites/~SYNC/gitBed/xProj/B.ogr/xWork
+00ReadMe.txt invoking-B.ogrT-command.txt invoking-xPeriment-command.txt xPeriment-B.ogrT-10-MS.tcl {xWork alias}
+.. sourcing user-defined xPerimentConfigFille
+xPeriment-B.ogrT-10-MS.tcl 
+   under user's workdir
+/Users/brglez/Sites/~SYNC/gitBed/xProj/B.ogr/xWork
+.. from xPeriment_ogrT.exec ... completed sample 1 with command 
+../xBin/B.ogrT  5 MS -seedInit 1901 
+.. from xPeriment_ogrT.exec ... completed sample 2 with command 
+../xBin/B.ogrT  5 MS -seedInit 53335 
+.. from xPeriment_ogrT.exec ... completed sample 3 with command 
+../xBin/B.ogrT  5 MS -seedInit 567930 
+.. from xPeriment_ogrT.exec ... completed sample 4 with command 
+../xBin/B.ogrT  5 MS -seedInit 256020 
+.. from xPeriment_ogrT.exec ... completed sample 5 with command 
+../xBin/B.ogrT  5 MS -seedInit 304520 
+.. from xPeriment_ogrT.exec ... completed sample 6 with command 
+../xBin/B.ogrT  5 MS -seedInit 887245 
+.. from xPeriment_ogrT.exec ... completed sample 7 with command 
+../xBin/B.ogrT  5 MS -seedInit 244841 
+.. from xPeriment_ogrT.exec ... completed sample 8 with command 
+../xBin/B.ogrT  5 MS -seedInit 843586 
+.. from xPeriment_ogrT.exec ... completed sample 9 with command 
+../xBin/B.ogrT  5 MS -seedInit 436548 
+.. from xPeriment_ogrT.exec ... completed sample 10 with command 
+../xBin/B.ogrT  5 MS -seedInit 558338 
+.. from xPeriment_ogrT.exec ... completed sample 11 with command 
+../xBin/B.ogrT  5 MS -seedInit 545556 
+.. from xPeriment_ogrT.exec ... completed sample 12 with command 
+../xBin/B.ogrT  5 MS -seedInit 229548 
+.. from xPeriment_ogrT.exec ... completed sample 13 with command 
+../xBin/B.ogrT  5 MS -seedInit 236192 
+.. from xPeriment_ogrT.exec ... completed sample 14 with command 
+../xBin/B.ogrT  5 MS -seedInit 173257 
+.. from xPeriment_ogrT.exec ... completed sample 15 with command 
+../xBin/B.ogrT  5 MS -seedInit 842560 
+.. from xPeriment_ogrT.exec ... completed sample 16 with command 
+../xBin/B.ogrT  5 MS -seedInit 478777 
+.. from xPeriment_ogrT.exec ... completed sample 17 with command 
+../xBin/B.ogrT  5 MS -seedInit 267593 
+.. from xPeriment_ogrT.exec ... completed sample 18 with command 
+../xBin/B.ogrT  5 MS -seedInit 591342 
+.. from xPeriment_ogrT.exec ... completed sample 19 with command 
+../xBin/B.ogrT  5 MS -seedInit 818716 
+.. from xPeriment_ogrT.exec ... completed sample 20 with command 
+../xBin/B.ogrT  5 MS -seedInit 91757 
+.. Procedure xPeriment_ogrT.main created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-5,11-20-1901-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-5,11-20-1901-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-5,11-20-1901-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-5,11-20-1901-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 5 unique coordinates (from 20) and created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-5,11-20-1901-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-5,11-20-1901-sample-coordUniq.html
+
+
+.. from xPeriment_ogrT.exec ... completed sample 1 with command 
+../xBin/B.ogrT  6 MS -seedInit 1901 
+.. from xPeriment_ogrT.exec ... completed sample 2 with command 
+../xBin/B.ogrT  6 MS -seedInit 53335 
+.. from xPeriment_ogrT.exec ... completed sample 3 with command 
+../xBin/B.ogrT  6 MS -seedInit 567930 
+.. from xPeriment_ogrT.exec ... completed sample 4 with command 
+../xBin/B.ogrT  6 MS -seedInit 256020 
+.. from xPeriment_ogrT.exec ... completed sample 5 with command 
+../xBin/B.ogrT  6 MS -seedInit 304520 
+.. from xPeriment_ogrT.exec ... completed sample 6 with command 
+../xBin/B.ogrT  6 MS -seedInit 887245 
+.. from xPeriment_ogrT.exec ... completed sample 7 with command 
+../xBin/B.ogrT  6 MS -seedInit 244841 
+.. from xPeriment_ogrT.exec ... completed sample 8 with command 
+../xBin/B.ogrT  6 MS -seedInit 843586 
+.. from xPeriment_ogrT.exec ... completed sample 9 with command 
+../xBin/B.ogrT  6 MS -seedInit 436548 
+.. from xPeriment_ogrT.exec ... completed sample 10 with command 
+../xBin/B.ogrT  6 MS -seedInit 558338 
+.. from xPeriment_ogrT.exec ... completed sample 11 with command 
+../xBin/B.ogrT  6 MS -seedInit 545556 
+.. from xPeriment_ogrT.exec ... completed sample 12 with command 
+../xBin/B.ogrT  6 MS -seedInit 229548 
+.. from xPeriment_ogrT.exec ... completed sample 13 with command 
+../xBin/B.ogrT  6 MS -seedInit 236192 
+.. from xPeriment_ogrT.exec ... completed sample 14 with command 
+../xBin/B.ogrT  6 MS -seedInit 173257 
+.. from xPeriment_ogrT.exec ... completed sample 15 with command 
+../xBin/B.ogrT  6 MS -seedInit 842560 
+.. from xPeriment_ogrT.exec ... completed sample 16 with command 
+../xBin/B.ogrT  6 MS -seedInit 478777 
+.. from xPeriment_ogrT.exec ... completed sample 17 with command 
+../xBin/B.ogrT  6 MS -seedInit 267593 
+.. from xPeriment_ogrT.exec ... completed sample 18 with command 
+../xBin/B.ogrT  6 MS -seedInit 591342 
+.. from xPeriment_ogrT.exec ... completed sample 19 with command 
+../xBin/B.ogrT  6 MS -seedInit 818716 
+.. from xPeriment_ogrT.exec ... completed sample 20 with command 
+../xBin/B.ogrT  6 MS -seedInit 91757 
+.. Procedure xPeriment_ogrT.main created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-6,17-20-1901-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-6,17-20-1901-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-6,17-20-1901-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-6,17-20-1901-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 7 unique coordinates (from 20) and created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-6,17-20-1901-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-6,17-20-1901-sample-coordUniq.html
+
+
+.. from xPeriment_ogrT.exec ... completed sample 1 with command 
+../xBin/B.ogrT  7 MS -seedInit 1901 
+.. from xPeriment_ogrT.exec ... completed sample 2 with command 
+../xBin/B.ogrT  7 MS -seedInit 53335 
+.. from xPeriment_ogrT.exec ... completed sample 3 with command 
+../xBin/B.ogrT  7 MS -seedInit 567930 
+.. from xPeriment_ogrT.exec ... completed sample 4 with command 
+../xBin/B.ogrT  7 MS -seedInit 256020 
+.. from xPeriment_ogrT.exec ... completed sample 5 with command 
+../xBin/B.ogrT  7 MS -seedInit 304520 
+.. from xPeriment_ogrT.exec ... completed sample 6 with command 
+../xBin/B.ogrT  7 MS -seedInit 887245 
+.. from xPeriment_ogrT.exec ... completed sample 7 with command 
+../xBin/B.ogrT  7 MS -seedInit 244841 
+.. from xPeriment_ogrT.exec ... completed sample 8 with command 
+../xBin/B.ogrT  7 MS -seedInit 843586 
+.. from xPeriment_ogrT.exec ... completed sample 9 with command 
+../xBin/B.ogrT  7 MS -seedInit 436548 
+.. from xPeriment_ogrT.exec ... completed sample 10 with command 
+../xBin/B.ogrT  7 MS -seedInit 558338 
+.. from xPeriment_ogrT.exec ... completed sample 11 with command 
+../xBin/B.ogrT  7 MS -seedInit 545556 
+.. from xPeriment_ogrT.exec ... completed sample 12 with command 
+../xBin/B.ogrT  7 MS -seedInit 229548 
+.. from xPeriment_ogrT.exec ... completed sample 13 with command 
+../xBin/B.ogrT  7 MS -seedInit 236192 
+.. from xPeriment_ogrT.exec ... completed sample 14 with command 
+../xBin/B.ogrT  7 MS -seedInit 173257 
+.. from xPeriment_ogrT.exec ... completed sample 15 with command 
+../xBin/B.ogrT  7 MS -seedInit 842560 
+.. from xPeriment_ogrT.exec ... completed sample 16 with command 
+../xBin/B.ogrT  7 MS -seedInit 478777 
+.. from xPeriment_ogrT.exec ... completed sample 17 with command 
+../xBin/B.ogrT  7 MS -seedInit 267593 
+.. from xPeriment_ogrT.exec ... completed sample 18 with command 
+../xBin/B.ogrT  7 MS -seedInit 591342 
+.. from xPeriment_ogrT.exec ... completed sample 19 with command 
+../xBin/B.ogrT  7 MS -seedInit 818716 
+.. from xPeriment_ogrT.exec ... completed sample 20 with command 
+../xBin/B.ogrT  7 MS -seedInit 91757 
+.. Procedure xPeriment_ogrT.main created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-7,25-20-1901-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-7,25-20-1901-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-7,25-20-1901-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-7,25-20-1901-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 8 unique coordinates (from 20) and created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-7,25-20-1901-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-7,25-20-1901-sample-coordUniq.html
+
+
+.. moving the file xPeriment-B.ogrT-10-MS.tcl under  
+   the directory xPeriment-B.ogrT-10-MS (with results of all experiments
+Thu Sep 10 22:12:32 EDT 2015 .. completed xPeriment_ogrT 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 

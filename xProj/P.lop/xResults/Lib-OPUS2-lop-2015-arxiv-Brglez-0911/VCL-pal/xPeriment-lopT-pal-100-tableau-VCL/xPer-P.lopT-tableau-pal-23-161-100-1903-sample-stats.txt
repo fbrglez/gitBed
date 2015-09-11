@@ -1,0 +1,11 @@
+# file = xPeriment-P.lopT-100-tableau-1901-152.46.18.162/xPer-P.lopT-152.46.18.162-pal-23-161-100-1903-sample-stats.txt 
+# this file has been generated on Sat Jul 25 14:47:11 EDT 2015 from 
+# file = xPeriment-P.lopT-100-tableau-1901-152.46.18.162/xPer-P.lopT-152.46.18.162-pal-23-161-100-1903-sample.txt  
+# using command table.sample.stats 
+#
+statsVar	solverName	instanceDim	hitRatio	cntCensored	sampleSize	median	mean	stdDev	coefVar	stdErr	meanLB95	meanUB95	minVal	maxVal	median2mean	minVal2mean	maxVal2mean
+runtime	P.lopT	23	1.0000	0	100	29.2	35.8749	29.32275	0.8173612	2.932275	30.01298	41.73682	1.01	144	0.8139396	0.02815339	4.013948
+cntProbe	P.lopT	23	1.0000	0	100	94266	115477.6	94182.91	0.8155947	9418.291	96649.46	134305.7	3323	462655	0.8163143	0.02877615	4.006449
+walkLength	P.lopT	23	1.0000	0	100	47132.5	57738.29	47091.45	0.8156018	4709.145	48324.23	67152.35	1661	231327	0.8163127	0.02876774	4.006475
+cntRestart	P.lopT	23	1.0000	0	100	0	0	0	NA	0	0	0	0	0	NA	NA	NA
+speedProbe	P.lopT	23	1.0000	0	100	3229.5	3228.64	26.39809	0.008176225	2.639809	3223.363	3233.917	3160	3301	1.000266	0.9787403	1.022412

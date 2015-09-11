@@ -1,0 +1,5 @@
+# thisFile = xPeriment-P.lopT-100-tableau-1901-152.46.18.162/xPer-P.lopT-152.46.18.162-pal-27-252-100-1903-sample.txt 
+# configuration file = xPeriment-P.lopT-100-tableau-1901-152.46.18.162.tcl 
+# created on Sat Jul 25 14:47:11 EDT 2015 
+#
+instanceID	instanceDim	hostID	sandboxID	solverName	valueTarget	valueBest	targetReached	isCensored	runtimeLmt	runtime	cntProbe	walkLength	cntRestart	speedProbe	coordBest

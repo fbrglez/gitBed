@@ -1,0 +1,1676 @@
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 07:50:07 EDT 2015
+args=-seedInit 1901
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 1901 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 08:28:24 EDT 2015  
+#   timeStamp = 20150831115007  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		001000000000001000000000000000110010000010000010000000000000000000010000001000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,3,15,31,32,35,41,47,68,75,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		446787
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		18968765
+runtimeLmt		3600
+runtime		2295
+speedProbe		8266
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		1901
+valueInit		5
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 08:28:24 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 08:28:26 EDT 2015
+args=-seedInit 53335
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 53335 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 09:22:29 EDT 2015  
+#   timeStamp = 20150831122826  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000100000000000010001000000010100000010000000000000000000000000001001010000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,13,26,30,38,40,47,75,78,80,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		628047
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		26662094
+runtimeLmt		3600
+runtime		3241
+speedProbe		8228
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		53335
+valueInit		3
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 09:22:29 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 09:22:30 EDT 2015
+args=-seedInit 567930
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 567930 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 09:57:21 EDT 2015  
+#   timeStamp = 20150831132230  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		010000000000000100000000000000010100010000010000000000001000100000010000000000000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,2,16,32,34,38,44,57,61,68,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		405887
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		17232604
+runtimeLmt		3600
+runtime		2089
+speedProbe		8248
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		567930
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 09:57:21 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 09:57:21 EDT 2015
+args=-seedInit 256020
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 256020 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 10:16:31 EDT 2015  
+#   timeStamp = 20150831135721  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000010100010000010100000010000000000000000000000010000000000000000010000000100000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,5,7,11,17,19,26,50,68,76,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		222275
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		9438009
+runtimeLmt		3600
+runtime		1149
+speedProbe		8215
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		256020
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 10:16:31 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 10:16:32 EDT 2015
+args=-seedInit 304520
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 304520 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 10:45:31 EDT 2015  
+#   timeStamp = 20150831141632  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		010000000000100000000000000000000000001000000000011000100001000000000000000000001100
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,2,13,39,50,51,55,60,81,82,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		337145
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		14314786
+runtimeLmt		3600
+runtime		1738
+speedProbe		8238
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		304520
+valueInit		1
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 10:45:31 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 10:45:31 EDT 2015
+args=-seedInit 887245
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# WARNING from B.ogr.saw_meander: isCensored=1, runtime=3600.0030919998753 > runtimeLmt=3600
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 887245 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 11:45:35 EDT 2015  
+#   timeStamp = 20150831144531  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000100000000000000010000100000010000010100000000000000000000100010000010000
+coordBest		000100000001100000100000000000000000000010000000001000000000010010100000000000000000
+rulerInit		0,13,29,34,41,47,49,70,74,80,85
+rulerBest		0,4,12,13,19,41,51,62,65,67,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		694341
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		29474706
+runtimeLmt		3600
+runtime		3600
+speedProbe		8187
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		887245
+valueInit		3
+valueBest		-9
+valueTarget		-10
+valueTol		0.0
+targetReached		0
+isCensored		1
+
+** completing B.ogrT_Main **
+# Mon Aug 31 11:45:35 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 11:45:35 EDT 2015
+args=-seedInit 244841
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 244841 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 12:06:12 EDT 2015  
+#   timeStamp = 20150831154535  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000100000000101000000000000000000001001000000000100000000000000001001010000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,7,16,18,39,42,52,69,72,74,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		240669
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		10218924
+runtimeLmt		3600
+runtime		1235
+speedProbe		8274
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		244841
+valueInit		3
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 12:06:12 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 12:06:12 EDT 2015
+args=-seedInit 843586
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 843586 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 12:09:03 EDT 2015  
+#   timeStamp = 20150831160612  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000110010000000000000000001001000000000000011000000000000000000010100000000000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,4,5,8,27,30,44,45,65,67,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		32659
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		1386875
+runtimeLmt		3600
+runtime		172.0
+speedProbe		8085
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		843586
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 12:09:03 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 12:09:04 EDT 2015
+args=-seedInit 436548
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 436548 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 12:23:15 EDT 2015  
+#   timeStamp = 20150831160904  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		010000000000000100000000000000000000001001001000010100000000000100000000000001000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,2,16,39,42,45,50,52,64,78,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		164885
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		7001501
+runtimeLmt		3600
+runtime		851.0
+speedProbe		8229
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		436548
+valueInit		5
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 12:23:15 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 12:23:15 EDT 2015
+args=-seedInit 558338
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# WARNING from B.ogr.saw_meander: isCensored=1, runtime=3600.0047559997915 > runtimeLmt=3600
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 558338 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 13:23:19 EDT 2015  
+#   timeStamp = 20150831162315  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000110010100000000000000000000000000000000000001000000000000100011000000010000000
+coordBest		001000000000010000000010000010000000000000001010000000000000000000000001000010000001
+rulerInit		0,7,8,11,13,51,64,68,69,77,85
+rulerBest		0,3,14,23,29,45,47,72,77,84,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		699003
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		29672949
+runtimeLmt		3600
+runtime		3600
+speedProbe		8242
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		558338
+valueInit		6
+valueBest		-9
+valueTarget		-10
+valueTol		0.0
+targetReached		0
+isCensored		1
+
+** completing B.ogrT_Main **
+# Mon Aug 31 13:23:19 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 13:23:19 EDT 2015
+args=-seedInit 545556
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 545556 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 14:02:34 EDT 2015  
+#   timeStamp = 20150831172319  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000000000010000010100000100000000100000010000000000000000100001001000000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,20,26,28,34,43,50,67,72,75,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		454991
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		19316806
+runtimeLmt		3600
+runtime		2352
+speedProbe		8213
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		545556
+valueInit		-1
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 14:02:34 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 14:02:34 EDT 2015
+args=-seedInit 229548
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 229548 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 14:14:37 EDT 2015  
+#   timeStamp = 20150831180234  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000001001000100000000001000000000001000000000000000000000000000001000000001001001000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,6,9,13,24,36,66,75,78,81,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		140133
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		5950543
+runtimeLmt		3600
+runtime		723.0
+speedProbe		8234
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		229548
+valueInit		7
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 14:14:37 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 14:14:37 EDT 2015
+args=-seedInit 236192
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 236192 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 15:08:15 EDT 2015  
+#   timeStamp = 20150831181438  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		010000001010001000000000000000000000000000001000110010000100000000000000000000000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,2,9,11,15,45,49,50,53,58,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		622553
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		26428574
+runtimeLmt		3600
+runtime		3214
+speedProbe		8222
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		236192
+valueInit		7
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 15:08:15 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 15:08:15 EDT 2015
+args=-seedInit 173257
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 173257 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 15:55:20 EDT 2015  
+#   timeStamp = 20150831190815  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		010000000000000000000000000000000010000001000001000000000100000000000000001011000010
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,2,35,42,48,58,75,77,78,83,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		547171
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		23229436
+runtimeLmt		3600
+runtime		2822
+speedProbe		8231
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		173257
+valueInit		7
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 15:55:20 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 15:55:21 EDT 2015
+args=-seedInit 842560
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 842560 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 16:16:02 EDT 2015  
+#   timeStamp = 20150831195521  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000001010000000000000000011001000000000000000000110000000000010000000000000100000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,6,8,26,27,30,49,50,62,76,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		240525
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		10212873
+runtimeLmt		3600
+runtime		1240
+speedProbe		8236
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		842560
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 16:16:02 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 16:16:03 EDT 2015
+args=-seedInit 478777
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 478777 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 16:17:53 EDT 2015  
+#   timeStamp = 20150831201603  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000100000100000000000110100010100000000000000000000000011000000000000000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,10,16,28,29,31,35,37,62,63,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		21331
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		905842
+runtimeLmt		3600
+runtime		110.0
+speedProbe		8231
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		478777
+valueInit		3
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 16:17:53 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 16:17:53 EDT 2015
+args=-seedInit 267593
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 267593 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 16:19:29 EDT 2015  
+#   timeStamp = 20150831201753  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000010010000000110000000000000100000000100000000000001000000001000000010000000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,5,8,16,17,31,40,54,63,71,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		18321
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		778028
+runtimeLmt		3600
+runtime		95.7
+speedProbe		8132
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		267593
+valueInit		10
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 16:19:29 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 16:19:29 EDT 2015
+args=-seedInit 591342
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 591342 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 16:27:49 EDT 2015  
+#   timeStamp = 20150831201929  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000100101000010000000101000000000000100001000000000000000000000000000000000001
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,10,13,15,20,28,30,43,48,84,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		96127
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		4082044
+runtimeLmt		3600
+runtime		500.0
+speedProbe		8170
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		591342
+valueInit		8
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 16:27:49 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 16:27:49 EDT 2015
+args=-seedInit 818716
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 818716 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 16:49:55 EDT 2015  
+#   timeStamp = 20150831202749  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000010000000000001010000000000000000000000101000000000100000100010100000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,14,27,29,52,54,64,70,74,76,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		257043
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		10914172
+runtimeLmt		3600
+runtime		1324
+speedProbe		8244
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		818716
+valueInit		2
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 16:49:55 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 16:49:55 EDT 2015
+args=-seedInit 91757
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 91757 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 16:53:32 EDT 2015  
+#   timeStamp = 20150831204955  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000001000000000000000000010000100000000100100000000000000000001000000100000011
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,12,32,37,46,49,69,76,83,84,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		42089
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		1787357
+runtimeLmt		3600
+runtime		217.0
+speedProbe		8224
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		91757
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 16:53:32 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 16:53:32 EDT 2015
+args=-seedInit 512826
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 512826 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 17:11:16 EDT 2015  
+#   timeStamp = 20150831205332  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		100110000000000000001000000000100100000000000000000000000000000100000000100001000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,1,4,5,21,31,34,64,73,78,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		206977
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		8788585
+runtimeLmt		3600
+runtime		1063
+speedProbe		8269
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		512826
+valueInit		1
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 17:11:16 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 17:11:17 EDT 2015
+args=-seedInit 997742
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 997742 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 17:19:40 EDT 2015  
+#   timeStamp = 20150831211117  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000010101001000000000100000000000000000000001000000000001000010000000001000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,14,16,18,21,31,54,66,71,81,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		96993
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		4118852
+runtimeLmt		3600
+runtime		503.0
+speedProbe		8195
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		997742
+valueInit		5
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 17:19:40 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 17:19:40 EDT 2015
+args=-seedInit 775817
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# WARNING from B.ogr.saw_meander: isCensored=1, runtime=3600.004249999814 > runtimeLmt=3600
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 775817 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 18:19:44 EDT 2015  
+#   timeStamp = 20150831211940  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000000000001000010000000100001100000010000000000000000100000000001010000000
+coordBest		000001000010001000000000000100000000000100000000000000000100100000000000000010000001
+rulerInit		0,21,26,34,39,40,47,64,75,77,85
+rulerBest		0,6,11,15,28,40,58,61,77,84,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		701387
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		29773391
+runtimeLmt		3600
+runtime		3600
+speedProbe		8270
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		775817
+valueInit		6
+valueBest		-9
+valueTarget		-10
+valueTol		0.0
+targetReached		0
+isCensored		1
+
+** completing B.ogrT_Main **
+# Mon Aug 31 18:19:44 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 18:19:44 EDT 2015
+args=-seedInit 252183
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 252183 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 18:21:38 EDT 2015  
+#   timeStamp = 20150831221944  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000010000001010001000000000000000000010000000000000100000000000100010001000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,11,18,20,24,44,58,70,74,78,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		22209
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		943138
+runtimeLmt		3600
+runtime		113.0
+speedProbe		8310
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		252183
+valueInit		5
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 18:21:38 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 18:21:38 EDT 2015
+args=-seedInit 594027
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 594027 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 18:57:49 EDT 2015  
+#   timeStamp = 20150831222138  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		110000100000000010000001000100000000000000000000000000100000000000010000000000000100
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,1,2,7,17,24,28,55,68,82,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		423363
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		17974460
+runtimeLmt		3600
+runtime		2169
+speedProbe		8285
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		594027
+valueInit		0
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 18:57:49 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 18:57:50 EDT 2015
+args=-seedInit 997677
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 997677 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 19:16:30 EDT 2015  
+#   timeStamp = 20150831225750  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000000001100000001100000000000010100000000000000000001000010000100000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,18,19,27,28,41,43,63,68,73,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		218157
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		9263050
+runtimeLmt		3600
+runtime		1119
+speedProbe		8278
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		997677
+valueInit		2
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 19:16:30 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 19:16:30 EDT 2015
+args=-seedInit 225861
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 225861 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 19:30:14 EDT 2015  
+#   timeStamp = 20150831231630  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000010000000000000000001010000000001001010001000000000000000000000000101000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,11,30,32,42,45,47,51,76,78,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		160373
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		6809781
+runtimeLmt		3600
+runtime		823.0
+speedProbe		8277
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		225861
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 19:30:14 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 19:30:14 EDT 2015
+args=-seedInit 256367
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 256367 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 19:31:04 EDT 2015  
+#   timeStamp = 20150831233014  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		100010000000000000001000000000000000000000010001010000000000000000001100000010000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,1,5,21,44,48,50,69,70,77,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		9809
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		416595
+runtimeLmt		3600
+runtime		50.4
+speedProbe		8274
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		256367
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 19:31:04 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 19:31:04 EDT 2015
+args=-seedInit 948132
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 948132 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 19:49:45 EDT 2015  
+#   timeStamp = 20150831233105  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000100010000000010000000001100000000000000000000000010000101000000000000100
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,13,17,26,36,37,62,67,69,82,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		219447
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		9317873
+runtimeLmt		3600
+runtime		1119
+speedProbe		8326
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		948132
+valueInit		1
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 19:49:45 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 19:49:45 EDT 2015
+args=-seedInit 186147
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 186147 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 20:14:19 EDT 2015  
+#   timeStamp = 20150831234945  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000010000000000000010000000110000000000000100000000110000000000000010000000100000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,8,23,31,32,46,55,56,71,79,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		288309
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		12241290
+runtimeLmt		3600
+runtime		1472
+speedProbe		8314
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		186147
+valueInit		14
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 20:14:19 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 20:14:19 EDT 2015
+args=-seedInit 364649
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 364649 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 20:19:51 EDT 2015  
+#   timeStamp = 20150901001419  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000000000100101001001000000000000010000000000000000110000000000000000000000001
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,16,19,21,24,27,41,58,59,84,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		64529
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		2740328
+runtimeLmt		3600
+runtime		331.0
+speedProbe		8269
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		364649
+valueInit		2
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 20:19:51 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 20:19:51 EDT 2015
+args=-seedInit 122908
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# WARNING from B.ogr.saw_meander: isCensored=1, runtime=3600.0008239999174 > runtimeLmt=3600
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 122908 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 21:19:55 EDT 2015  
+#   timeStamp = 20150901001951  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		010000110000000000001100000000000000100000010100000000000000000000000000000100000000
+coordBest		000000000100000101000000100000000000000000000000000001000110000000000010000000000100
+rulerInit		0,2,7,8,21,22,37,44,46,76,85
+rulerBest		0,10,16,18,25,54,58,59,71,82,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		705344
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		29941216
+runtimeLmt		3600
+runtime		3600
+speedProbe		8317
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		122908
+valueInit		3
+valueBest		-9
+valueTarget		-10
+valueTol		0.0
+targetReached		0
+isCensored		1
+
+** completing B.ogrT_Main **
+# Mon Aug 31 21:19:55 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 21:19:55 EDT 2015
+args=-seedInit 46465
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 46465 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 22:05:15 EDT 2015  
+#   timeStamp = 20150901011955  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		100011000000000100001000000000000000000000010000000000000000001000100000000000000001
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,1,5,6,16,21,44,63,67,84,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		530249
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		22510976
+runtimeLmt		3600
+runtime		2717
+speedProbe		8284
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		46465
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 22:05:15 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 22:05:15 EDT 2015
+args=-seedInit 903326
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 903326 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 23:00:29 EDT 2015  
+#   timeStamp = 20150901020515  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		010000000000101010010000000000000001010000000000000000000000000010000000000001000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,2,13,15,17,20,36,38,65,78,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		649891
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		27588421
+runtimeLmt		3600
+runtime		3310
+speedProbe		8334
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		903326
+valueInit		6
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 23:00:29 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 23:00:29 EDT 2015
+args=-seedInit 504012
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 504012 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 23:11:25 EDT 2015  
+#   timeStamp = 20150901030029  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000100000000010010000000000000010000000000000000001000100000000010000000000010010
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,7,17,20,35,54,58,68,80,83,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		128579
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		5459960
+runtimeLmt		3600
+runtime		655.0
+speedProbe		8330
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		504012
+valueInit		-1
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 23:11:25 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 23:11:25 EDT 2015
+args=-seedInit 623677
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 623677 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 23:25:54 EDT 2015  
+#   timeStamp = 20150901031125  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000000000001000000100000000000010000100000000000000000000000000100011100000000000001
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,12,19,32,37,64,68,69,70,84,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		169399
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		7193253
+runtimeLmt		3600
+runtime		868.0
+speedProbe		8292
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		623677
+valueInit		1
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 23:25:54 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 23:25:54 EDT 2015
+args=-seedInit 93095
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 93095 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 23:41:58 EDT 2015  
+#   timeStamp = 20150901032554  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000100100000000000000011000000000010000000000010000000000001000010100000000000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,4,7,23,24,35,47,60,65,67,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		188813
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		8017556
+runtimeLmt		3600
+runtime		963.0
+speedProbe		8328
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		93095
+valueInit		2
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 23:41:58 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Mon Aug 31 23:41:58 EDT 2015
+args=-seedInit 510387
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=FALSE
+# FROM: B.ogr.saw_meander, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 510387 NA NA  FALSE meander 0 0 
+#    dateLine = Mon Aug 31 23:45:51 EDT 2015  
+#   timeStamp = 20150901034158  
+#
+instanceDef		12,85
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		FALSE
+coordInit		000011000000000100001000000001100000000000001000000100000000000000010000000000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,5,6,16,21,30,31,45,52,68,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		44763
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		1900806
+runtimeLmt		3600
+runtime		233.0
+speedProbe		8158
+hostID		brglez@bn20-255-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		510387
+valueInit		6
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Mon Aug 31 23:45:51 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+

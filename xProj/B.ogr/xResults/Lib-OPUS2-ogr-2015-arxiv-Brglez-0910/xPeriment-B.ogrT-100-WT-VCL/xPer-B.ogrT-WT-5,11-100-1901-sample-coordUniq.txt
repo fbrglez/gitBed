@@ -1,0 +1,7 @@
+# created by the command table.sample.coordUniq 
+# coordUniq=4 (from the original coordAll=100) 
+coordBestUnique
+0011000010
+0100001001
+0100001100
+1001000010

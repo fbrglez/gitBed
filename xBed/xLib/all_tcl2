@@ -1,0 +1,40 @@
+#------- keep here as a 80-character reference line to check text width -------#
+
+set isVerbose FALSE
+# use this script (all_tcl) source all *.tcl files 
+# in the SANDBOX directory where this file (all_tcl) resides ...
+set thisFile all_tcl
+
+
+#-- NOTE: the two global arrays are initialized HERE:
+global     info: all_info all_valu  
+array unset all_info 
+array unset all_valu
+
+#-- Find full path of directory where file all_tcl resides
+set workDir [pwd]
+if {$isVerbose} {
+    puts ".. initiating the 'source command' under this directory \n$workDir"
+}
+set thisDir [file dirname [info script]]
+cd $thisDir ; set thisDir [pwd]
+
+if {$isVerbose} {
+    puts ".. sourcing tcl files from this SANDBOX directory \n$thisDir"
+}
+set tclList [lsort [glob *.tcl]]
+
+foreach file $tclList { 
+    #puts ".. sourcing $file" 
+    source $file
+}
+
+# Return to workDir
+cd $workDir
+if {$isVerbose} {
+    puts ".. returning to directory \n$workDir"
+    puts [clock format [clock seconds] -gmt 0]
+}
+puts \
+"# .. sourced all tcl libraries defined under xBed/xLib (see the file all_tcl2)"
+return

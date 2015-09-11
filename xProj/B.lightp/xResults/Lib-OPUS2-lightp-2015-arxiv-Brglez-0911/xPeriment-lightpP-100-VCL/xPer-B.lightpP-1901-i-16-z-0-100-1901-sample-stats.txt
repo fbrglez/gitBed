@@ -1,0 +1,11 @@
+# file = xPeriment-B.lightpP-1901/xPer-B.lightpP-1901-i-16-z-0-100-1901-sample-stats.txt 
+# this file has been generated on Sat Aug 29 01:03:49 EDT 2015 from 
+# file = xPeriment-B.lightpP-1901/xPer-B.lightpP-1901-i-16-z-0-100-1901-sample.txt  
+# using command table.sample.stats 
+#
+statsVar	solverName	instanceDim	hitRatio	cntCensored	sampleSize	median	mean	stdDev	coefVar	stdErr	meanLB95	meanUB95	minVal	maxVal	median2mean	minVal2mean	maxVal2mean
+runtime	B.lightpP	16	1.0000	0	100	0.005095	0.0053805	0.002904278	0.5397785	0.0002904278	0.004799905	0.005961095	0.00121	0.0136	0.946938	0.2248862	2.527646
+cntProbe	B.lightpP	16	1.0000	0	100	21	22.88	11.65088	0.5092168	1.165088	20.55087	25.20913	5	57	0.9178322	0.2185315	2.491259
+walkLength	B.lightpP	16	1.0000	0	100	9	9.94	5.825441	0.5860604	0.5825441	8.775435	11.10456	1	27	0.9054326	0.1006036	2.716298
+cntRestart	B.lightpP	16	1.0000	0	100	0	0	0	NA	0	0	0	0	0	NA	NA	NA
+speedProbe	B.lightpP	16	1.0000	0	100	4275.5	4360.06	564.0552	0.1293687	56.40552	4247.3	4472.82	3236	5861	0.9806058	0.7421916	1.344248

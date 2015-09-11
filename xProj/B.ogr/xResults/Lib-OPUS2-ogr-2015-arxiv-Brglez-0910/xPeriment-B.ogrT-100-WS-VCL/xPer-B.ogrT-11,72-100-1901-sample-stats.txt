@@ -1,0 +1,11 @@
+# file = xPeriment-B.ogrT-100-1901/xPer-B.ogrT-1901-11,72-100-1901-sample-stats.txt 
+# this file has been generated on Sat Aug 29 12:40:49 EDT 2015 from 
+# file = xPeriment-B.ogrT-100-1901/xPer-B.ogrT-1901-11,72-100-1901-sample.txt  
+# using command table.sample.stats 
+#
+statsVar	solverName	instanceDim	hitRatio	cntCensored	sampleSize	median	mean	stdDev	coefVar	stdErr	meanLB95	meanUB95	minVal	maxVal	median2mean	minVal2mean	maxVal2mean
+runtime	B.ogrT	71	1.0000	0	100	373	503.919	456.0148	0.9049368	45.60148	412.757	595.081	11.3	2600	0.7401983	0.02242424	5.159559
+cntProbe	B.ogrT	71	1.0000	0	100	2540931	3430199	3106471	0.9056241	310647.1	2809184	4051214	78469	1.778175e+07	0.7407533	0.02287593	5.183883
+walkLength	B.ogrT	71	1.0000	0	100	36336	49058.48	44437.61	0.9058089	4443.761	40174.95	57942.01	1122	254412	0.7406671	0.02287066	5.185892
+cntRestart	B.ogrT	71	1.0000	0	100	0	0	0	NA	0	0	0	0	0	NA	NA	NA
+speedProbe	B.ogrT	71	1.0000	0	100	6811	6814.23	32.58148	0.004781388	3.258148	6807.717	6820.743	6736	6932	0.999526	0.9885196	1.017283

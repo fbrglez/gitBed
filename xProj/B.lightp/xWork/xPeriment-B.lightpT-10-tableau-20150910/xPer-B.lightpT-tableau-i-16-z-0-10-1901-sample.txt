@@ -1,0 +1,15 @@
+# thisFile = xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-16-z-0-10-1901-sample.txt 
+# configuration file = xPeriment-B.lightpT-10-tableau.tcl 
+# created on Thu Sep 10 23:16:56 EDT 2015 
+#
+instanceID	instanceDim	hostID	sandboxID	solverName	valueTarget	valueBest	targetReached	isCensored	runtimeLmt	runtime	cntProbe	walkLength	cntRestart	speedProbe	coordBest
+i-16-z-0-1-1901	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00600	23	11	0	3645	0000111110011111
+i-16-z-0-2-53335	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00500	21	10	0	4015	1001000001100110
+i-16-z-0-3-567930	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00300	9	4	0	3529	0100000110000010
+i-16-z-0-4-256020	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00600	23	11	0	4123	0010100000010100
+i-16-z-0-5-304520	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00700	27	13	0	3837	1010010010110011
+i-16-z-0-6-887245	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.0130	51	25	0	4034	1010010010110011
+i-16-z-0-7-244841	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00700	33	16	0	4544	1000001100111000
+i-16-z-0-8-843586	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00200	5	2	0	2654	0011101101001010
+i-16-z-0-9-436548	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00600	25	12	0	4193	0100000110000010
+i-16-z-0-10-558338	16	brglez@triangle-Darwin-14.5.0	B.lightp	B.lightpT	0.0	0	1	0	3600	0.00300	9	4	0	2593	1011011111101101

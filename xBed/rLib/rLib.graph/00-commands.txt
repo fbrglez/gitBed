@@ -1,0 +1,12 @@
+> getwd()
+[1] "/Users/brglez/Sites/~SYNC/gitBed/xBed/xLib"
+
+
+> source("rlib.graph.R")
+
+
+> plot.graph(fileDir="rLib.graph", fileBase="i-10-0015-Peterson")
+.. entering R-function 'plot.graph'
+[1] "rLib.graph/i-10-0015-Peterson.edge"
+Read 24 items
+ 

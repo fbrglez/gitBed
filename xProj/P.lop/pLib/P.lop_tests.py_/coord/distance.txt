@@ -1,0 +1,28 @@
+>>> P.coord.distance("?")
+Valid query is 'P.coord.distance ??'
+
+>>> P.coord.distance("??")
+This procedure takes two permutations such as **3 1 2 4** and **4 1 2 3**
+and returns the value of permutation distance, which is defined by the 
+crossing number of edges in a two layer graph formed by the permutation at 
+each layer. This formulation is a special case of formulas introduced in 
+the  article 
+JOHN N. WARFIELD
+Crossing Theory and Hierarchy Mapping
+IEEE TRANSACTIONS ON SYSTEMS, MAN, AND CYBERNETICS, 
+VOL. SMC-6, NO. 7, JuLY 1977, pp. 505--524
+
+>>> P.coord.distance([2,4,1,3],[4,2,3,1])
+2
+
+>>> P.coord.distance([4,2,3,1],[2,4,1,3])
+2
+
+>>> P.coord.distance([4,2,3,1],[2,4,3,1])
+1
+
+>>> P.coord.distance([4,2,3,1],[1,3,2,4])
+6
+>>> 
+
+

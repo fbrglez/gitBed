@@ -1,0 +1,52 @@
+## There is no command line query for ../xBin/B.ogrT  (for now)
+## and B.ogrT is fragile
+##
+## valid input is
+##  ../xBin/B.ogrT <rulerLength> <methodName> -seedInit <int>
+##  rulerLength = 4, 5, 6, 7, ...
+## methodName   = WS, WT, MS, MT
+
+% ../xBin/B.ogrT 6 MS -seedInit 1091
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Thu Sep 10 21:58:25 EDT 2015
+args=-seedInit 1091
+# .. variables have been initialized,  proceeding with the search under method=saw_meander with option isSimple=TRUE
+# FROM: B.ogr.saw_meander_simple1, searching for pivotBest**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 6 1091 NA NA  NA meander 0 0 
+#    dateLine = Thu Sep 10 21:58:26 EDT 2015  
+#   timeStamp = 20150911015825  
+#
+instanceDef		6,17
+solverID		B.ogr-meander
+solverMethod		meander
+isSimple		TRUE
+coordInit		0000100010000010
+coordBest		0010100010000001
+rulerInit		0,5,9,15,17
+rulerBest		0,3,5,9,16,17
+nDim		16
+walkLengthLmt		2147483647
+walkLength		3
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		29
+runtimeLmt		3600
+runtime		0.002
+speedProbe		17857
+hostID		brglez@triangle-Darwin-14.5.0
+compiler		tcl-8.6.3
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		1091
+valueInit		-3
+valueBest		-4
+valueTarget		-4
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Thu Sep 10 21:58:26 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

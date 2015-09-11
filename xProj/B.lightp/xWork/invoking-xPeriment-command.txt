@@ -1,0 +1,180 @@
+## NOTE:
+When invoking the command 'xPeriment' a single tcl file such as
+    
+     xPeriment-B.lightpT-10-tableau.tcl
+
+is required -- it provides the configuration input for the experiment.
+
+As the experiment is completed, this file will be moved into the directory created to archive the experiments, next to results that have been created!!!
+
+
+
+triangle: xWork/ % pwd
+/Users/brglez/Sites/~SYNC/gitBed/xProj/B.lightp/xWork
+triangle: xWork/ % 
+triangle: xWork/ % ../../../xBed/xBin/xPeriment
+currDir=/Users/brglez/Sites/~SYNC/gitBed/xProj/B.lightp/xWork
+thisDir=/Users/brglez/Sites/~SYNC/gitBed/xBed/xBin
+.. sourced file ./~SYNC/gitBed/xBed/xLib/file.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/format.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/list.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/util.tcl
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Thu Sep 10 23:16:24 EDT 2015 
+
+From xPeriment.info: user-query about the command xPeriment ... 
+   User can invoke 'xPeriment' under any sandbox directory (xWork or similar) 
+   adjacent to xBenchm/, xBin/, xLib/ and invoke the /experiment with 
+   the command
+ 
+       ../../../xBed/xBin/xPeriment all
+ 
+   where 'all' triggers the sourcing  of xPerimentConfigFile 
+   which must be ** the only *.tcl ** file in this directory.
+ 
+Thu Sep 10 23:16:24 EDT 2015 .. completed xPeriment 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 
+triangle: xWork/ % ls *.tcl
+xPeriment-B.lightpT-10-tableau.tcl
+triangle: xWork/ % 
+triangle: xWork/ % ../../../xBed/xBin/xPeriment all
+currDir=/Users/brglez/Sites/~SYNC/gitBed/xProj/B.lightp/xWork
+thisDir=/Users/brglez/Sites/~SYNC/gitBed/xBed/xBin
+.. sourced file ./~SYNC/gitBed/xBed/xLib/file.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/format.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/list.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/util.tcl
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Thu Sep 10 23:16:54 EDT 2015 
+.. starting xPeriment under 
+/Users/brglez/Sites/~SYNC/gitBed/xProj/B.lightp/xWork
+00ReadMe.txt invoking-B.lightT-command.txt invoking-xPeriment-command.txt xPeriment-B.lightpT-10-tableau.tcl {xWork-Arch alias}
+.. sourcing user-defined xPerimentConfigFille
+xPeriment-B.lightpT-10-tableau.tcl 
+   under user's workdir
+/Users/brglez/Sites/~SYNC/gitBed/xProj/B.lightp/xWork
+.. from xPeriment.exec ... completed sample 1 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 1901
+.. from xPeriment.exec ... completed sample 2 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 53335
+.. from xPeriment.exec ... completed sample 3 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 567930
+.. from xPeriment.exec ... completed sample 4 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 256020
+.. from xPeriment.exec ... completed sample 5 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 304520
+.. from xPeriment.exec ... completed sample 6 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 887245
+.. from xPeriment.exec ... completed sample 7 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 244841
+.. from xPeriment.exec ... completed sample 8 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 843586
+.. from xPeriment.exec ... completed sample 9 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 436548
+.. from xPeriment.exec ... completed sample 10 with command 
+../xBin/B.lightpT i-9-z-0  -runtimeLmt 3600 -seedInit 558338
+.. Procedure xPeriment.main created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-9-z-0-10-1901-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-9-z-0-10-1901-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-9-z-0-10-1901-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-9-z-0-10-1901-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 1 unique coordinates (from 10) and created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-9-z-0-10-1901-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-9-z-0-10-1901-sample-coordUniq.html
+
+
+.. from xPeriment.exec ... completed sample 1 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 1901
+.. from xPeriment.exec ... completed sample 2 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 53335
+.. from xPeriment.exec ... completed sample 3 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 567930
+.. from xPeriment.exec ... completed sample 4 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 256020
+.. from xPeriment.exec ... completed sample 5 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 304520
+.. from xPeriment.exec ... completed sample 6 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 887245
+.. from xPeriment.exec ... completed sample 7 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 244841
+.. from xPeriment.exec ... completed sample 8 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 843586
+.. from xPeriment.exec ... completed sample 9 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 436548
+.. from xPeriment.exec ... completed sample 10 with command 
+../xBin/B.lightpT i-12-z-0  -runtimeLmt 3600 -seedInit 558338
+.. Procedure xPeriment.main created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-12-z-0-10-1901-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-12-z-0-10-1901-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-12-z-0-10-1901-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-12-z-0-10-1901-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 1 unique coordinates (from 10) and created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-12-z-0-10-1901-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-12-z-0-10-1901-sample-coordUniq.html
+
+
+.. from xPeriment.exec ... completed sample 1 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 1901
+.. from xPeriment.exec ... completed sample 2 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 53335
+.. from xPeriment.exec ... completed sample 3 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 567930
+.. from xPeriment.exec ... completed sample 4 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 256020
+.. from xPeriment.exec ... completed sample 5 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 304520
+.. from xPeriment.exec ... completed sample 6 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 887245
+.. from xPeriment.exec ... completed sample 7 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 244841
+.. from xPeriment.exec ... completed sample 8 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 843586
+.. from xPeriment.exec ... completed sample 9 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 436548
+.. from xPeriment.exec ... completed sample 10 with command 
+../xBin/B.lightpT i-16-z-0  -runtimeLmt 3600 -seedInit 558338
+.. Procedure xPeriment.main created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-16-z-0-10-1901-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-16-z-0-10-1901-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-16-z-0-10-1901-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-16-z-0-10-1901-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 8 unique coordinates (from 10) and created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-16-z-0-10-1901-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-16-z-0-10-1901-sample-coordUniq.html
+
+
+.. moving the file xPeriment-B.lightpT-10-tableau.tcl under  
+   the directory xPeriment-B.lightpT-10-tableau (with results of all experiments
+Thu Sep 10 23:16:56 EDT 2015 .. completed xPeriment 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 

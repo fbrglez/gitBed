@@ -1,0 +1,20 @@
+#! /bin/csh -f
+##: timeAndLimit -- shell script for timing a program while limiting its
+#     execution time to a given number of seconds.
+#   <center>
+#     Usage: <code>timeAndLimit</code> <var>timeLimit</var> <var>arg_1</var>
+#     <code>...</code> <var>arg_n</var>
+#   </center>
+
+set timeLimit = $1
+set arguments = "${argv[2-$#argv]}"
+if( $timeLimit == none ) then
+    unlimit cputime
+else
+    limit cputime $timeLimit
+endif
+time $arguments
+exit $status
+
+#  [Last modified: 2003 11 17 at 17:22:20 GMT]
+

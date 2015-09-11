@@ -1,0 +1,17 @@
+>>> 
+>>> P.coord.rand('?')
+Valid query is 'P.coord.rand ??'
+>>> P.coord.rand('??')
+
+This proc take the length of the permutation coordinate (nDim) and returns
+a random permutation of coordinate (coordType = P) of specified length.
+
+>>> P.coord.rand(4)
+[4, 1, 2, 3]
+>>> P.coord.rand(4)
+[1, 4, 2, 3]
+>>> P.coord.rand(21)
+[18, 14, 11, 10, 20, 12, 19, 16, 17, 4, 3, 2, 9, 7, 8, 1, 13, 15, 6, 21, 5]
+>>> P.coord.rand(21)
+[3, 1, 19, 5, 17, 4, 16, 10, 20, 14, 15, 21, 2, 13, 8, 9, 7, 12, 6, 11, 18]
+>>> 

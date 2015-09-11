@@ -1,0 +1,7 @@
+# thisFile = xPeriment-B.ogrT-100-1901/xPer-B.ogrT-1901-11,72-100-1901-sample.txt 
+# configuration file = xPeriment-B.ogrT-100-1901.tcl 
+# created on Fri Aug 28 22:40:27 EDT 2015 
+#
+instanceID	instanceDim	hostID	sandboxID	solverName	valueTarget	valueBest	targetReached	isCensored	runtimeLmt	runtime	cntProbe	walkLength	cntRestart	speedProbe	coordBest
+11,72-1-1901	71	brglez@bn19-34-Linux-3.10.0-229.4.2.el7.x86_64	B.ogr	B.ogrT	-9	-9	1	0	3600	239.	1627845	23278	0	6802	10000000100000000010000100000010000000000000000000010001010000000000100
+11,72-2-53335	71	brglez@bn19-34-Linux-3.10.0-229.4.2.el7.x86_64	B.ogr	B.ogrT	-9	-9	1	0	3600	268.	1821708	26050	0	6789	01000001000000000100000010000000000000100001000000000000001000000001001

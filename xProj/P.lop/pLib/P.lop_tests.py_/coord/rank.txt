@@ -1,0 +1,23 @@
+>>> 
+>>> P.coord.rank('?')
+Valid query is 'P.coord.rank ??'
+>>> P.coord.rank('??')
+
+This function takes a permutation coordinate as a list such as [4, 1, 2, 3] and
+returns its inversion number, which can also be interpreted as the distance 
+from [1, 2, 3, 4] or also as 'the rank' of the coordinate in the Hasse graph 
+with respect to its coordinate in natural order, here [1, 2, 3, 4].
+
+>>> P.coord.rank([4,3,2,1])
+6
+>>> P.coord.rank([4,1,2,3])
+3
+>>> P.coord.rank([3,1,2,4])
+2
+>>> P.coord.rank([4,1,2,3])
+3
+>>> P.coord.rank([1,2,3,4])
+0
+>>> P.coord.rank([1,2,4,3])
+1
+>>> 

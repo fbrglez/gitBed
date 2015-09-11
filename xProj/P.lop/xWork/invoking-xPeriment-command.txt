@@ -1,0 +1,181 @@
+
+## NOTE:
+When invoking the command 'xPeriment' a single tcl file such as
+    
+     xPeriment-P.lopT-10-tableau-1901.tcl
+
+is required -- it provides the configuration input for the experiment.
+
+As the experiment is completed, this file will be moved into the directory created to archive the experiments, next to results that have been created!!!
+
+
+triangle: xWork/ % 
+triangle: xWork/ % pwd
+/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xWork
+triangle: xWork/ % 
+triangle: xWork/ % ../../../xBed/xBin/xPeriment
+currDir=/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xWork
+thisDir=/Users/brglez/Sites/~SYNC/gitBed/xBed/xBin
+.. sourced file ./~SYNC/gitBed/xBed/xLib/file.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/format.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/list.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/util.tcl
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Thu Sep 10 23:50:46 EDT 2015 
+
+From xPeriment.info: user-query about the command xPeriment ... 
+   User can invoke 'xPeriment' under any sandbox directory (xWork or similar) 
+   adjacent to xBenchm/, xBin/, xLib/ and invoke the /experiment with 
+   the command
+ 
+       ../../../xBed/xBin/xPeriment all
+ 
+   where 'all' triggers the sourcing  of xPerimentConfigFile 
+   which must be ** the only *.tcl ** file in this directory.
+ 
+Thu Sep 10 23:50:46 EDT 2015 .. completed xPeriment 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 
+triangle: xWork/ % ls *.tcl
+xPeriment-P.lopT-10-tableau-1901.tcl
+triangle: xWork/ % 
+triangle: xWork/ % ../../../xBed/xBin/xPeriment all
+currDir=/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xWork
+thisDir=/Users/brglez/Sites/~SYNC/gitBed/xBed/xBin
+.. sourced file ./~SYNC/gitBed/xBed/xLib/file.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/format.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/list.tcl
+.. sourced file ./~SYNC/gitBed/xBed/xLib/util.tcl
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Thu Sep 10 23:51:06 EDT 2015 
+.. starting xPeriment under 
+/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xWork
+00ReadMe.txt invoking-P.lopT-command.txt invoking-xPeriment-command.txt xPeriment-P.lopT-10-tableau-1901.tcl {xWork-arch alias}
+.. sourcing user-defined xPerimentConfigFille
+xPeriment-P.lopT-10-tableau-1901.tcl 
+   under user's workdir
+/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xWork
+.. from xPeriment.exec ... completed sample 1 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 1903
+.. from xPeriment.exec ... completed sample 2 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 316410
+.. from xPeriment.exec ... completed sample 3 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 871546
+.. from xPeriment.exec ... completed sample 4 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 233105
+.. from xPeriment.exec ... completed sample 5 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 116105
+.. from xPeriment.exec ... completed sample 6 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 194892
+.. from xPeriment.exec ... completed sample 7 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 662606
+.. from xPeriment.exec ... completed sample 8 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 727650
+.. from xPeriment.exec ... completed sample 9 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 471542
+.. from xPeriment.exec ... completed sample 10 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-11-35.lop  -runtimeLmt 7200 -seedInit 591696
+.. Procedure xPeriment.main created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-11-35-10-1903-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-11-35-10-1903-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-11-35-10-1903-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-11-35-10-1903-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 10 unique coordinates (from 10) and created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-11-35-10-1903-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-11-35-10-1903-sample-coordUniq.html
+
+
+.. from xPeriment.exec ... completed sample 1 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 1903
+.. from xPeriment.exec ... completed sample 2 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 316410
+.. from xPeriment.exec ... completed sample 3 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 871546
+.. from xPeriment.exec ... completed sample 4 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 233105
+.. from xPeriment.exec ... completed sample 5 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 116105
+.. from xPeriment.exec ... completed sample 6 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 194892
+.. from xPeriment.exec ... completed sample 7 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 662606
+.. from xPeriment.exec ... completed sample 8 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 727650
+.. from xPeriment.exec ... completed sample 9 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 471542
+.. from xPeriment.exec ... completed sample 10 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-13-55.lop  -runtimeLmt 7200 -seedInit 591696
+.. Procedure xPeriment.main created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-13-55-10-1903-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-13-55-10-1903-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-13-55-10-1903-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-13-55-10-1903-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 9 unique coordinates (from 10) and created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-13-55-10-1903-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-13-55-10-1903-sample-coordUniq.html
+
+
+.. from xPeriment.exec ... completed sample 1 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 1903
+.. from xPeriment.exec ... completed sample 2 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 316410
+.. from xPeriment.exec ... completed sample 3 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 871546
+.. from xPeriment.exec ... completed sample 4 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 233105
+.. from xPeriment.exec ... completed sample 5 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 116105
+.. from xPeriment.exec ... completed sample 6 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 194892
+.. from xPeriment.exec ... completed sample 7 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 662606
+.. from xPeriment.exec ... completed sample 8 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 727650
+.. from xPeriment.exec ... completed sample 9 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 471542
+.. from xPeriment.exec ... completed sample 10 with command 
+../xBin/P.lopT ../xBenchm/lop/pal/pal-19-107.lop  -runtimeLmt 7200 -seedInit 591696
+.. Procedure xPeriment.main created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-19-107-10-1903-sample.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-19-107-10-1903-sample.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.stats created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-19-107-10-1903-sample-stats.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-19-107-10-1903-sample-stats.html
+.. invoking file.read from file.read.tableInR
+.. The command table.sample.coordUniq found 10 unique coordinates (from 10) and created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-19-107-10-1903-sample-coordUniq.txt
+.. invoking file.read from file.read.tableInR
+.. The command table.html created the file
+xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-19-107-10-1903-sample-coordUniq.html
+
+
+.. moving the file xPeriment-P.lopT-10-tableau-1901.tcl under  
+   the directory xPeriment-P.lopT-10-tableau-1901 (with results of all experiments
+Thu Sep 10 23:51:22 EDT 2015 .. completed xPeriment 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 

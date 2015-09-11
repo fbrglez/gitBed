@@ -1,0 +1,11 @@
+# file = xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-9-z-0-10-1901-sample-stats.txt 
+# this file has been generated on Thu Sep 10 23:16:55 EDT 2015 from 
+# file = xPeriment-B.lightpT-10-tableau/xPer-B.lightpT-tableau-i-9-z-0-10-1901-sample.txt  
+# using command table.sample.stats 
+#
+statsVar	solverName	instanceDim	hitRatio	cntCensored	sampleSize	median	mean	stdDev	coefVar	stdErr	meanLB95	meanUB95	minVal	maxVal	median2mean	minVal2mean	maxVal2mean
+runtime	B.lightpT	9	1.0000	0	10	0.011	0.0104	0.005853774	0.5628629	0.001851126	0.006011408	0.01478859	0.001	0.019	1.057692	0.09615385	1.826923
+cntProbe	B.lightpT	9	1.0000	0	10	122	115.6	66.49344	0.5752028	21.02707	65.74966	165.4503	5	211	1.055363	0.0432526	1.82526
+walkLength	B.lightpT	9	1.0000	0	10	60.5	57.3	33.24672	0.580222	10.51354	32.37483	82.22517	2	105	1.055846	0.03490401	1.832461
+cntRestart	B.lightpT	9	1.0000	0	10	0	0	0	NA	0	0	0	0	0	NA	NA	NA
+speedProbe	B.lightpT	9	1.0000	0	10	11089.5	10424.1	2004.999	0.1923426	634.0363	8920.946	11927.25	4817	11373	1.063833	0.4621022	1.091029

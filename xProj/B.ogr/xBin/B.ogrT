@@ -1,0 +1,155 @@
+#!/bin/sh
+# just a trick to get tclsh to ignore the following line \
+exec tclsh "$0" ${1+"$@"}
+#------- keep here as a 80-character reference line to check text width -------#
+
+set thisVersion 20150827
+#      file: B.ogrT
+# Copyright: Franc Brglez, Sun Apr 19 15:39:30 EDT 2015 
+
+# first, find the location (and path) of thisScript
+set currDir [pwd] ; set thisDir [file dirname [info script]]
+if {[string equal [file pathtype $thisDir] "relative"]} {
+    cd $thisDir ; set thisDir [pwd] ;  cd $currDir
+}
+global     info: all_info all_valu aV
+#
+# source all_tcl in the adjacent xLib of this sandbox
+source [file join [file dirname $thisDir] xLib all_tcl] 
+
+# create an internal name for this script
+append thisScript $all_info(sandboxName) T 
+if {$thisScript != [file tail [info script]]} {
+    error "\nERROR from [file tail [info script]]:\
+      \n   The name of this script should be $thisScript\n"
+}
+   
+proc B.ogrT_Main { thisScript argv argc } { 
+
+    set thisCmd ${thisScript}_Main 
+    global info: all_info all_valu aV  
+
+    if {$argc == 0} {$all_info(sandboxName).info 1 ; return}
+ 
+    set instanceDef [lindex $argv 0]
+    set methods     [lindex $argv 1]
+    
+    #set args        [concat [lrange $argv 1 end] -is$thisScript]
+    set args        [concat [lrange $argv 2 end]] 
+    puts args=$args
+    $all_info(sandboxName).main   $instanceDef  $methods $args  
+    
+    puts "\n** completing $thisCmd **" 
+    return
+} 
+#--------------------------------- main ---------------------------------------#
+proc 00_main {} {}  ;# appears as the first line in alpha's pulldown menu
+set progCommand "$thisScript $argv"
+#set firstLine "# [string repeat + 76]\
+  \n# progName = $thisScript\
+  \n# progArgs = $argv\
+  \# [join [clock format [clock seconds] -gmt 0]] "
+#puts $firstLine
+puts "# [join [clock format [clock seconds] -gmt 0]]"
+
+# invoke the main procedure
+${thisScript}_Main  $thisScript  $argv  $argc
+ 
+set lastLine \
+  "\# [join [clock format [clock seconds] -gmt 0]] .. completed $thisScript\
+  \n\# [string repeat + 76]\n"
+puts $lastLine
+#------- keep here as a 80-character reference line to check text width -------#
+
+# % pwd
+# /Users/brglez/Sites/~SYNC/gitPublic/xProj499-Sp15/P.lop/xWork
+# 
+# % ../xBin/B.ogrT
+# # .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+# # progName = B.ogrT 
+# # progArgs =  
+# # Thu Apr 23 22:17:18 EDT 2015 
+# 
+# USAGE: 
+# under TkCon shell (which has sourced ../xLib/all_tcl):
+#    P.lop.main instanceFile [optional_arguments]
+#    
+# under bash, invoking the 'tcl executable B.ogrT' which sources libraries directly
+#   ../xBin/B.ogrT instanceFile [optional_arguments]
+#   
+# under bash, invoking the 'python executable P.lopP' which sources libraries directly
+#   ../xBin/P.lopP instanceFile [optional_arguments]
+#   
+#   under bash, invoking the 'compiled C++ code as as a binary P.lopX' 
+#   ../xBin/P.lopX  instanceFile [optional_arguments]
+#   
+# EXAMPLES:
+#   P.lop.main     ../xBenchm/lop/tiny/i-5-book2.lop -isInitOnly
+#   P.lop.main     ../xBenchm/lop/tiny/i-5-book2.lop  
+#   ../xBin/B.ogrT ../xBenchm/lop/tiny/i-5-book2.lop -runtimeLmt 5 -seedInit 1789
+#   ../xBin/P.lopP ../xBenchm/lop/tiny/i-5-book2.lop -coordInit 1,2,3,4,5 -runtimeLmt 5 
+#   ../xBin/P.lopX ../xBenchm/lop/tiny/i-5-book2.lop -coordInit 5,3,2,1,4 -seedInit 1914 
+#    
+# DESCRIPTION:  
+# P.lop.main, B.ogrT, P.lopP, or P.lopX take one REQUIRED argument
+# 
+#     instanceDef  (here a filePath with an extension .lop or NO extension)
+#     
+# and a number of OPTIONAL arguments in any order. The most significant parameter,
+# extracted from the instanceDef is
+#     nDim ... coordinate size, 
+#              i.e. the number of variables (columns in the square matrix)
+# Here is a complete list of pairs 'name defaultValue', with short 
+# in-line descriptions:
+# 
+#   -runtimeLmt       30            Stop if the solver runtime exceeds these many seconds.
+#   -cntProbeLmt      2147483647    Stop if the solver reaches this value.
+#   -cntRestartLmt    2147483647    Stop if the solver reaches this value.
+#   -walkLengthLmt    2147483647    Stop if the solver reaches this value.
+#   -seedInit         NA            If NA, a random positive integer is created to initialize a
+#                                   random number generator.
+#   -coordInit        NA            If NA, a random permutation coordinate is generated internally
+#                                   as a string of size nDim Ñ unless initial coordinate is entered by the user.
+#   -valueInit        internal      A value returned by objective function, given coordInit.
+#   -valueTarget      internal      Objective function target value -- solver stops on reaching this value.
+#   -valueTol         0.0           A coefficient to adjust valueTarget = valueTarget*(1 + valueTol)
+#                                   where valueTarget is read from a standard file P.lop.info_solutions.txt.
+#   -neighbDist       1             By default, neighbDist = 1 probes the pivot neighborhood at
+#                                   distance of 1 only -- the maximum distance <= nDim*(nDim-1)/2.
+#   -walkSegmLmt      NA            Inactive unless assigned an integer or if walkSegmCoef is assigned a real value.
+#   -walkSegmCoef     NA            A coefficient that determines walkSegmLmt as walkSegmCoef*nDim.
+#   -walkIntervalLmt  NA            Inactive unless assigned an integer or if walkIntervalCoef
+#                                   is assigned a real value.
+#   -walkIntervalCoef NA            A coefficient that determines walkIntervalLmt as walkIntervalCoef*nDim.
+#   -walkRepeatsLmt   NA            Inactive unless assigned an integer. If an integer, the walk is
+#                                   monitored for repeats of valueBest. If walkRepeats > walkRepeatsLmt,
+#                                   the self-avoiding walk branches from another coordinate with valueBest.
+#   -isSimple         FALSE         If asserted, simpler-to-code but less efficient procedures are invoked.
+#   -writeVar         0             An integer variable to control levels of stdout:
+#                                   If 0, do stdout with minimum lines of text.
+#                                   If 1, do stdout of all variable values initialized under procedure *.init.
+#                                   If 2, do stdout of cntRestart trace.
+#                                   If 3, do stdout of distance=1 neighborhood probing and pivot selection.
+# 
+# DETAILS:
+# This solver reads an instance of the 'linear ordering problem' in a matrix format
+# and returns a column/row ordering that minimizes the negative sum of matrix
+# elements above the diagonal. The example below shows an instance of such a matrix
+# with sum = -8 under its 'natural order', and an instance under an optimal 
+# permutation of 3,1,4,2 with a sum of -13. For this matrix, there are two more 
+# such optimal permutations: 2,3,1,4 and 4,2,3,1.
+#                  
+# natural order   under permutation
+#   1,2,3,4          3,1,4,2
+#   sum = -8         sum = -13
+# ------------     ------------
+# 4                4 
+#   0 0 0 5          0 4 1 1
+#   1 0 2 0          0 0 5 0
+#   4 1 0 1          1 3 0 2   
+#   3 2 1 0          2 1 0 0
+# 
+# # Thu Apr 23 22:17:18 EDT 2015 .. completed B.ogrT 
+# # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# %

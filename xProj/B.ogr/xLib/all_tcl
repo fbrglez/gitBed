@@ -1,0 +1,75 @@
+#------- keep here as a 80-character reference line to check text width -------#
+
+set isVerbose FALSE
+# use this script (all_tcl) source all *.tcl files 
+# in the SANDBOX directory where this file (all_tcl) resides ...
+set thisFile all_tcl
+
+
+#-- NOTE: the two global arrays are initialized HERE:
+global     info: all_info all_valu  
+array unset all_info 
+array unset all_valu
+
+#-- Find full path of directory where file all_tcl resides
+set workDir [pwd]
+if {$isVerbose} {
+    puts ".. initiating the 'source command' under this directory \n$workDir"
+}
+set thisDir [file dirname [info script]]
+cd $thisDir ; set thisDir [pwd]
+
+if {$isVerbose} {
+    puts ".. sourcing tcl files from this SANDBOX directory \n$thisDir"
+}
+set tclList [lsort [glob *.tcl]]
+
+foreach file $tclList { 
+    #puts ".. sourcing $file" 
+    source $file
+}
+
+#-- Look for infoVariablesFile under sandbox 
+set sandboxPath        [file dirname $thisDir] 
+set sandboxName        [file tail $sandboxPath] 
+set infoVariablesFile  ${sandboxName}.info_variables.txt
+set infoVariablesFile  [file join $sandboxPath xLib $infoVariablesFile]
+
+if {[file exists $infoVariablesFile]} {
+    # initialize all_info
+    set all_info(sandboxName)       $sandboxName
+    set all_info(sandboxPath)       $sandboxPath
+    set all_info(infoVariablesFile) $infoVariablesFile
+    #puts ".. the registered infoVariablesFile for this SANDBOX directory is\
+      \n[file join $sandboxName xLib [file tail $infoVariablesFile]]"
+} else {
+   error "\nERROR from $thisFile\
+     \n.. missing the infoVariablesFile $infoVariablesFile\n"
+}
+#-- Now, source the required tcl libraries under xBed/xLib
+set xBedPath [file join [file dirname [file dirname $sandboxPath]] xBed]
+set all_info(xBedPath)  $xBedPath
+if {$isVerbose} {
+    puts ".. sourcing tcl files from xBed/xLib directory \n[file join $xBedPath xLib]"
+}
+set tclList "file.tcl format.tcl list.tcl util.tcl B.coord.tcl translate.tcl\
+             combinatorics.tcl"
+
+foreach file $tclList { 
+    #puts ".. sourcing $file" 
+    source [file join $xBedPath xLib $file]
+}
+if {$isVerbose} {
+    puts ".. all registered variables registered under all_info array are:"
+    parray all_info
+}
+
+# Return to workDir
+cd $workDir
+if {$isVerbose} {
+    puts ".. returning to directory \n$workDir"
+    puts [clock format [clock seconds] -gmt 0]
+}
+puts \
+"# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)"
+return

@@ -1,0 +1,12 @@
+# This table documents principal variables defined under the solver domain P.lop
+# P = permutation-based coordinates, lop = linear ordering problem
+# Valid values that interpreted a default values for optional arguments include:
+#       integers, reals, FALSE, NA, strings of contiguous non-space characters other than 
+#       the two special keywords 'required' and 'internal'. These two keywords are
+#       are interpreted internally to the program and do not flag optional arguments.
+# Characters ';' and '"' should be excluded from variable description.
+#
+# All variable descriptions are limited to about 70 characters per line; if description
+# is on more than single line, variableName and variableDefault must be repeated for each continuation line
+#
+# variableName	     variableDefault	variableDescription

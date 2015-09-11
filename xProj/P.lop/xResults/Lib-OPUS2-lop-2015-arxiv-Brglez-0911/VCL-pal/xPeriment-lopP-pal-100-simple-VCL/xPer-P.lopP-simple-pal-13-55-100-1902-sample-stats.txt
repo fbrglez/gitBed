@@ -1,0 +1,11 @@
+# file = xPeriment-P.lopP-100-simple-20150723-1902-VCL/xPer-P.lopP-VCL-pal-13-55-100-1902-sample-stats.txt 
+# this file has been generated on Thu Jul 23 20:18:06 EDT 2015 from 
+# file = xPeriment-P.lopP-100-simple-20150723-1902-VCL/xPer-P.lopP-VCL-pal-13-55-100-1902-sample.txt  
+# using command table.sample.stats 
+#
+statsVar	solverName	instanceDim	hitRatio	cntCensored	sampleSize	median	mean	stdDev	coefVar	stdErr	meanLB95	meanUB95	minVal	maxVal	median2mean	minVal2mean	maxVal2mean
+runtime	P.lopP	13	1.0000	0	100	0.05545	0.0829189	0.08915926	1.075259	0.008915926	0.06509506	0.1007427	0.0037	0.446	0.6687257	0.04462191	5.37875
+cntProbe	P.lopP	13	1.0000	0	100	1711	2541.77	2746.62	1.080594	274.662	1992.693	3090.847	112	14078	0.673153	0.04406378	5.53866
+walkLength	P.lopP	13	1.0000	0	100	159	239.52	263.9475	1.101985	26.39475	186.7542	292.2858	9	1352	0.6638277	0.03757515	5.644623
+cntRestart	P.lopP	13	1.0000	0	100	0	0	0	NA	0	0	0	0	0	NA	NA	NA
+speedProbe	P.lopP	13	1.0000	0	100	31141.5	30756.11	1438.089	0.04675784	143.8089	30468.62	31043.6	21795	31932	1.012531	0.7086397	1.038233

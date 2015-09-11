@@ -1,0 +1,25 @@
+# thisFile = xPeriment-B.ogrT-10-MS/xPer-B.ogrT-MS-6,17-20-1901-sample.txt 
+# configuration file = xPeriment-B.ogrT-10-MS.tcl 
+# created on Thu Sep 10 22:12:30 EDT 2015 
+#
+instanceID	instanceDim	hostID	sandboxID	solverName	valueTarget	valueBest	targetReached	isCensored	runtimeLmt	runtime	cntProbe	walkLength	cntRestart	speedProbe	coordBest
+6,17-1-1901	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00200	29	3	0	17565	1001000001000010
+6,17-2-53335	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00400	74	9	0	19201	0010100010000001
+6,17-3-567930	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00400	89	11	0	22117	1000000100010100
+6,17-4-256020	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00500	119	15	0	23705	1000000100101000
+6,17-5-304520	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00300	59	7	0	21731	1000000100010100
+6,17-6-887245	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00600	149	19	0	23901	1001000001000010
+6,17-7-244841	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00800	194	25	0	25536	1001000001000010
+6,17-8-843586	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00900	238	31	0	26074	0001010010000001
+6,17-9-436548	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00600	149	19	0	24912	0001010010000001
+6,17-10-558338	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00700	164	21	0	24815	1001000001000010
+6,17-11-545556	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00700	179	23	0	25165	1001000001010000
+6,17-12-229548	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00800	194	25	0	25039	1001000001010000
+6,17-13-236192	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00300	59	7	0	21811	0100001000001001
+6,17-14-173257	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00200	29	3	0	18262	1000000100101000
+6,17-15-842560	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00200	29	3	0	18148	0001010010000001
+6,17-16-478777	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00500	119	15	0	24026	1001000001010000
+6,17-17-267593	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.0120	297	39	0	25766	0100001000001001
+6,17-18-591342	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00600	134	17	0	24196	0001010010000001
+6,17-19-818716	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00500	104	13	0	23024	0010100010000001
+6,17-20-91757	16	brglez@triangle-Darwin-14.5.0	B.ogr	B.ogrT	-4	-4	1	0	3600	0.00400	89	11	0	22367	0100001000001001

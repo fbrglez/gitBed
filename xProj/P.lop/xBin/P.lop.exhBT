@@ -1,0 +1,138 @@
+#!/bin/sh
+# just a trick to get tclsh to ignore the following line \
+exec tclsh "$0" ${1+"$@"}
+#------- keep here as a 80-character reference line to check text width -------#
+
+set thisVersion 20150420
+#      file: P.lop.exhBT
+# Copyright: Franc Brglez, Sun Apr 19 15:39:30 EDT 2015 
+
+# first, find the location (and path) of thisScript
+set currDir [pwd] ; set thisDir [file dirname [info script]]
+if {[string equal [file pathtype $thisDir] "relative"]} {
+    cd $thisDir ; set thisDir [pwd] ;  cd $currDir
+}
+global     info: all_info all_valu aV
+#
+# source all_tcl in the adjacent xLib of this sandbox
+source [file join [file dirname $thisDir] xLib all_tcl] 
+
+set thisScript [file tail [info script]]
+   
+proc P.lop.exhBT_main { thisScript argv argc } { 
+
+    set thisProc P.lop.exhBT_main
+    global info: all_info all_valu aV 
+    
+    if {$argc == 0} {P.lop.exhB ?? ; return}
+ 
+    set instanceDef [lindex $argv 0]
+    P.lop.exhB      $instanceDef 
+    
+    #puts "\n**completing $thisProc**" 
+    return
+    
+} ;# proc P.lop.exhBT_main
+#--------------------------------- main ---------------------------------------#
+proc 00_main {} {}  ;# appears as the first line in alpha's pulldown menu
+set progCommand "$thisScript $argv"
+#set firstLine "\# [string repeat + 76]\
+  \n# progName = $thisScript\
+  \n# progArgs = $argv\
+  \n# [join [clock format [clock seconds] -gmt 0]] "
+#puts $firstLine
+puts "# [join [clock format [clock seconds] -gmt 0]]"
+
+# invoke the main procedure
+${thisScript}_main  $thisScript  $argv  $argc
+ 
+set lastLine \
+  "# [join [clock format [clock seconds] -gmt 0]] .. completed $thisScript\
+  \n# [string repeat + 76]\n"
+puts $lastLine
+#------- keep here as a 80-character reference line to check text width -------#
+
+# % pwd
+# /Users/brglez/Sites/~SYNC/gitPublic/xProj499-Sp15/P.lop/xWork
+# 
+# 
+# % ../xBin/P.lop.exhBT 
+# # .. sourced all tcl libraries defined under the sandbox (the file all_tcl)
+# # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+# # progName = P.lop.exhBT 
+# # progArgs =  
+# # Wed May 06 15:09:44 EDT 2015 
+# This proc takes an instance file  (instanceDef) and iteratively 
+# generates **all** permutation coordinates to perform an exhaustive evaluation 
+# of the 'linear ordering problem' instance (lop). This evaluation 
+# includes a comprehensive instrumentation to measure the computational cost 
+# and the efficiency of the procedure.
+# 
+# For a stdout query, use one of these these commands:
+#           P.lop.exhB  ?  (sourced under tclsh)
+#   ../xBin/P.lop.exhBT    (executable under bash) 
+#     
+# An example of the command that reads and exhaustively evaluates 
+# a 'linear ordering problem' instance:
+# 
+#           P.lop.exhB  ../xBenchm/lop/tiny/i-4-test1.lop  (sourced under tclsh)
+#         
+#   ../xBin/P.lop.exhBT ../xBenchm/lop/tiny/i-4-test1.lop  (executable under bash)
+# 
+# # Wed May 06 15:09:44 EDT 2015 .. completed P.lop.exhBT 
+# # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# 
+#   
+# % ../xBin/P.lop.exhBT ../xBenchm/lop/tiny/i-4-test1.lop 
+# # .. sourced all tcl libraries defined under the sandbox (the file all_tcl)
+# # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+# # progName = P.lop.exhBT 
+# # progArgs = ../xBenchm/lop/tiny/i-4-test1.lop 
+# # Wed May 06 15:02:54 EDT 2015 
+# 4
+#   0  0  0  5  
+#   1  0  2  0  
+#   4  1  0  1    
+#   3  2  1  0  
+#  
+# 
+# 
+# hasseVertices(0,1) = 1,2,3,4:-8
+# hasseVertices(1,3) = 2,1,3,4:-9 1,3,2,4:-7 1,2,4,3:-8
+# hasseVertices(2,5) = 2,3,1,4:-13 2,1,4,3:-9 3,1,2,4:-11 1,3,4,2:-9 1,4,2,3:-10
+# hasseVertices(3,6) = 3,2,1,4:-12 2,3,4,1:-11 2,4,1,3:-7 3,1,4,2:-13 1,4,3,2:-9 4,1,2,3:-8
+# hasseVertices(4,5) = 3,2,4,1:-10 2,4,3,1:-11 4,2,1,3:-9 3,4,1,2:-11 4,1,3,2:-7
+# hasseVertices(5,3) = 3,4,2,1:-12 4,2,3,1:-13 4,3,1,2:-11
+# hasseVertices(6,1) = 4,3,2,1:-12
+# 
+# There are 3 valueBest=-13 solutions: 
+# rank	solution
+# 002	2,3,1,4:-13
+# 003	3,1,4,2:-13
+# 005	4,2,3,1:-13
+#  
+# instanceDef = ../xBenchm/lop/tiny/i-4-test1.lop 
+# There are 3 valueBest=-13 solutions 
+#      rankMax = 6 
+#  coordLength = 4 
+#  coordTotal  = 24 
+# runtimeCoord = 0.0009 
+# runtimeProbe = 0.0003 
+# runtimeRatio = 3.3184 
+#       hostID = brglez@triangle-2-Darwin-14.3.0 
+#     dateLine = Wed May 06 15:02:55 EDT 2015 
+#     thisProc = P.lop.exhB 
+# 
+# coordDistrib(000) = 1
+# coordDistrib(001) = 3
+# coordDistrib(002) = 5
+# coordDistrib(003) = 6
+# coordDistrib(004) = 5
+# coordDistrib(005) = 3
+# coordDistrib(006) = 1
+# 
+# **completing P.lop.exhBT_main**
+# # Wed May 06 15:02:55 EDT 2015 .. completed P.lop.exhBT 
+# # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# 
+# % 

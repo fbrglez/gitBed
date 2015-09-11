@@ -1,0 +1,15 @@
+# thisFile = xPeriment-P.lopT-10-tableau-1901/xPer-P.lopT-1901-pal-13-55-10-1903-sample.txt 
+# configuration file = xPeriment-P.lopT-10-tableau-1901.tcl 
+# created on Thu Sep 10 23:51:07 EDT 2015 
+#
+instanceID	instanceDim	hostID	sandboxID	solverName	valueTarget	valueBest	targetReached	isCensored	runtimeLmt	runtime	cntProbe	walkLength	cntRestart	speedProbe	coordBest
+pal-13-55-1-1903	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.0770	923	461	0	12014	9,10,13,8,2,11,3,12,6,4,7,1,5
+pal-13-55-2-316410	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.0240	265	132	0	11066	8,9,1,10,2,11,3,12,4,13,5,6,7
+pal-13-55-3-871546	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.0380	451	225	0	11723	11,9,3,12,1,10,4,13,7,2,5,8,6
+pal-13-55-4-233105	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.00900	99	49	0	11236	10,8,2,11,9,3,12,6,1,4,13,7,5
+pal-13-55-5-116105	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.00400	41	20	0	10583	8,9,11,3,12,13,6,7,1,10,4,2,5
+pal-13-55-6-194892	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.0290	349	174	0	11855	7,8,11,9,3,12,6,1,10,4,13,2,5
+pal-13-55-7-662606	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.0120	145	72	0	11713	11,9,3,12,6,7,1,10,4,13,8,2,5
+pal-13-55-8-727650	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.0430	509	254	0	11747	9,10,3,4,13,7,8,1,2,11,12,5,6
+pal-13-55-9-471542	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.00700	83	41	0	11326	8,9,1,10,2,11,3,12,4,13,5,6,7
+pal-13-55-10-591696	13	brglez@triangle-Darwin-14.5.0	P.lop	P.lopT	-55.0	-55	1	0	7200	0.0460	541	270	0	11828	9,3,12,6,7,1,10,4,13,2,11,5,8

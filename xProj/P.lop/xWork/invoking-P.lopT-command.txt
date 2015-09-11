@@ -1,0 +1,239 @@
+triangle: xWork/ % 
+triangle: xWork/ % 
+triangle: xWork/ % pwd
+/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xWork
+triangle: xWork/ % 
+triangle: xWork/ % ../xBin/P.lopT
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Thu Sep 10 23:48:31 EDT 2015
+
+USAGE: 
+under TkCon shell (which sources ../xLib/all_tcl):
+   P.lop.main <instanceDef> [optional_arguments]
+   
+under bash, invoking the 'tcl executable P.lopT' which sources libraries directly
+  ../xBin/P.lopT <instanceDef> [optional_arguments]
+  
+under bash, invoking the 'python executable P.lopP' which sources libraries directly
+  ../xBin/P.lopP <instanceDef> [optional_arguments]
+  
+under bash, invoking the 'compiled C++ code as as a binary P.lopX' 
+  ../xBin/P.lopX  <instanceDef> [optional_arguments]
+  
+EXAMPLES:
+  P.lop.main     ../xBenchm/lop/tiny/i-4-test-13.lop -isInitOnly
+  P.lop.main     ../xBenchm/lop/tiny/i-4-test-13.lop  
+  ../xBin/P.lopT ../xBenchm/lop/tiny/i-4-test-13.lop -runtimeLmt 5 -seedInit 1789
+  ../xBin/P.lopP ../xBenchm/lop/tiny/i-4-test-13.lop -coordInit 1,2,3,4,5 -runtimeLmt 5 
+  ../xBin/P.lopX ../xBenchm/lop/tiny/i-4-test-13.lop -coordInit 5,3,2,1,4 -seedInit 1914 
+   
+DESCRIPTION:  
+P.lop.main, P.lopT, P.lopP, or P.lopX take one REQUIRED argument
+
+    instanceDef  (here a filePath with an extension .lop or NO extension)
+    
+and a number of OPTIONAL arguments in any order. The most significant parameter,
+extracted from the instanceDef is
+    nDim ... coordinate size, 
+             i.e. the number of variables (columns in the square matrix)
+Here is a complete list of pairs 'name defaultValue', with short 
+in-line descriptions:
+
+  -runtimeLmt       30            Stop if the solver exceeds these many seconds.
+  -cntProbeLmt      2147483647    Stop if the solver reaches this value.
+  -cntRestartLmt    2147483647    Stop if the solver reaches this value.
+  -walkLengthLmt    2147483647    Stop if the solver reaches this value.
+  -seedInit         NA            If NA, a random positive integer is created to initialize a
+                                  random number generator.
+  -coordInit        NA            If NA, a random permutation coordinate is generated internally
+                                  as a string of size nDim — unless initial coordinate is entered by the user.
+  -valueTol         0.0           A coefficient to adjust valueTarget = valueTarget*(1 + valueTol)
+                                  where valueTarget is read from a standard file P.lop.info_solutions.txt.
+  -walkSegmLmt      NA            Inactive unless assigned an integer or if walkSegmCoef is assigned a real value.
+  -walkSegmCoef     NA            A coefficient that determines walkSegmLmt as walkSegmCoef*nDim.
+  -isSimple         FALSE         If asserted, simpler-to-code but less efficient procedures are invoked.
+  -isWalkTables     FALSE         If asserted, walk tables are generated: option isSimple is asserted internally.
+  -writeVar         0             An integer variable to control levels of stdout:
+                                  If 0, do stdout with minimum lines of text.
+                                  If 1, do stdout of all variable values initialized under procedure *.init.
+                                  If 2, do stdout of cntRestart trace.
+                                  If 3, do stdout of distance=1 neighborhood probing and pivot selection.
+
+DETAILS:
+This solver reads an instance of the 'linear ordering problem' in a matrix format
+and returns a column/row ordering that minimizes the negative sum of matrix
+elements above the diagonal. The example below shows an instance of such a matrix
+with sum = -8 under its 'natural order', and an instance under an optimal 
+permutation of 3,1,4,2 with a sum of -13. For this matrix, there are two more 
+such optimal permutations: 2,3,1,4 and 4,2,3,1.
+                 
+natural order   under permutation
+  1,2,3,4          3,1,4,2
+  sum = -8         sum = -13
+------------     ------------
+4                4 
+  0 0 0 5          0 4 1 1
+  1 0 2 0          0 0 5 0
+  4 1 0 1          1 3 0 2   
+  3 2 1 0          2 1 0 0
+
+# Thu Sep 10 23:48:31 EDT 2015 .. completed P.lopT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 
+triangle: xWork/ % 
+triangle: xWork/ % ../xBin/P.lopP
+.. importing files from this SANDBOX directory 
+/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xBin
+.. importing files from xBed/pLib directory 
+/Users/brglez/Sites/~SYNC/gitBed/xBed/pLib
+.. returning to directory 
+/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xBin
+Thu Sep 10 23:48:40 EDT 2015
+.. registered infoVariablesFile as /Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/pLib/P.lop.info_variables.txt
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# progName = P.lopP
+# progArgs = []
+# Thu Sep 10 23:48:40 EDT 2015 
+USAGE:
+
+under TkCon shell (which has sourced ../pLib/all_python.py
+	P.lop.main instanceFile [optional_arguments]
+
+under bash, invoking the 'tcl executable P.lopT' which sources libraries directly
+	../xBin/P.lopT instanceFile [optional_arguments]
+
+under bash, invoking the 'python executable P.lopP' which sources libraries directly
+	../xBin/P.lopP instanceFile [optional_arguments]
+
+under bash, invoking the 'compiled C++ code as a binary P.lopX
+	../xBin/P.lopX instanceFile [optional_arguments]
+
+EXAMPLES:
+	P.lop.main ../xBenchm/lop/tiny/i-5-book2.lop -initOnly
+	P.lop.main ../xBenchm/lop/tiny/i-5-book2.lop -valueTarget -51
+	../xBin/P.lopT ../xBenchm/lop/tiny/i-5-book2.lop -valueTarget -51 -runtimeLmt 5 -seedInit 1789
+	../xBin/P.lopP ../xBenchm/lop/tiny/i-5-book2.lop -valueTarget -51 -coordInit 1,2,3,4,5 -runtimeLmt 5
+	../xBin/P.lopX ../xBenchm/lop/tiny/i-5-book2.lop -valueTarget -51 -coordInit 5,3,2,1,4 -seedinit 1914
+DESCRIPTION:
+P.lop.main, P.lopT, P.lopP, or P.lopX take one REQUIRED argument
+
+	instanceDef  (Here a filePath with an extension .lop or NO extension)
+
+and a number of OPTIONAL arguments in any order. The most significant parameter,
+extracted from the instanceDef is
+	nDim ... coordinate size,
+			i.e. the number of variables (columns in the square matrix)
+Here is a complete list of pairs 'name defaultValue', with short
+in-line descriptions:
+	-runtimeLmt       30          	Stop if the solver exceeds these many seconds.
+	-cntProbeLmt      2147483647  	Stop if the solver reaches this value.
+	-cntRestartLmt    2147483647  	Stop if the solver reaches this value.
+	-walkLengthLmt    2147483647  	Stop if the solver reaches this value.
+	-seedInit         NA          	If NA, a random positive integer is created to initialize a
+	                              	random number generator.
+	-coordInit        NA          	If NA, a random permutation coordinate is generated internally
+	                              	as a string of size nDim — unless initial coordinate is entered by the user.
+	-valueInit        internal    	A value returned by objective function, given coordInit.
+	-valueTarget      internal    	Objective function target value -- solver stops on reaching this value.
+	-valueTol         0.0         	A coefficient to adjust valueTarget = valueTarget*(1 + valueTol)
+	                              	where valueTarget is read from a standard file P.lop.info_solutions.txt.
+	-walkSegmLmt      NA          	Inactive unless assigned an integer or if walkSegmCoef is assigned a real value.
+	-walkSegmCoef     NA          	A coefficient that determines walkSegmLmt as walkSegmCoef*nDim.
+	-isSimple         FALSE       	If asserted, simpler-to-code but less efficient procedures are invoked.
+	-writeVar         0           	An integer variable to control levels of stdout:
+	                              	If 0, do stdout with minimum lines of text.
+	                              	If 1, do stdout of all variable values initialized under procedure *.init.
+	                              	If 2, do stdout of cntRestart trace.
+	                              	If 3, do stdout of distance=1 neighborhood probing and pivot selection.
+
+DETAILS:
+This solver reads an instance of the 'linear ordering problem in a matrix format
+and returns a column/row ordering that minimizes the negative sum of matrix
+elements above the diagonal. The example below shows an instance of such a matrix
+with sum = -8 under its 'natural order', and an instance under an optimal
+permutation of 3,1,4,2 with a sum of -13. For this matrix, there are two more
+such optimal permutations: 2,3,1,4 and 4,2,3,1.
+
+natural order   under permutation
+  1,2,3,4          3,1,4,2
+  sum = -8         sum = -13
+------------    ------------
+4               4           
+  0 0 0 5         0 4 1 1
+  1 0 2 0         0 0 5 0
+  4 1 0 1         1 3 0 2
+  3 2 1 0         2 1 0 0
+# Thu Sep 10 23:48:40 EDT 2015 .. completed P.lopP
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 
+triangle: xWork/ % 
+triangle: xWork/ % ../xBin/P.lopP ../xBenchm/lop/pal/pal-11-35.lop
+.. importing files from this SANDBOX directory 
+/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xBin
+.. importing files from xBed/pLib directory 
+/Users/brglez/Sites/~SYNC/gitBed/xBed/pLib
+.. returning to directory 
+/Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/xBin
+Thu Sep 10 23:49:09 EDT 2015
+.. registered infoVariablesFile as /Users/brglez/Sites/~SYNC/gitBed/xProj/P.lop/pLib/P.lop.info_variables.txt
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# progName = P.lopP
+# progArgs = ['../xBenchm/lop/pal/pal-11-35.lop']
+# Thu Sep 10 23:49:09 EDT 2015 
+args = []
+# ** from: P.lop.init:
+# instanceDef=../xBenchm/lop/pal/pal-11-35.lop
+# argsOptions=[]
+
+------------------------------------------------------------------------------
+.. completed initialization of all variables,
+   proceeding with the search under solverID = P.lop.saw
+------------------------------------------------------------------------------
+
+#    Proceeding with the search under solverID = P.lop.saw
+##############################################################################
+# FROM: P.lop.saw, searching for pivotBest via saw_pivot
+# 
+# FROM P.lop.stdout: A SUMMARY OF NAME-VALUE PAIRS
+# commandLine = P.lop.main ../xBenchm/lop/pal/pal-11-35.lop []
+#    dateLine = Thu Sep 10 23:49:09 EDT 2015
+#   timeStamp = 20150910234909
+#
+instanceDef		../xBenchm/lop/pal/pal-11-35.lop
+solverID		P.lop.saw
+coordInit		3,2,8,5,6,10,9,4,7,1,11
+coordBest		8,2,11,5,9,3,1,6,7,10,4
+nDim		11
+walkLengthLmt		2147483647.0
+walkLength		70
+cntRestartLmt		2147483647.0
+cntRestart		0
+cntProbeLmt		2147483647.0
+cntProbe		143
+runtimeLmt		30.0
+runtime		0.00642371177673
+runtimeRead		0.000316143035889
+speedProbe		22261
+hostID		brglez@triangle.local-Darwin-14.5.0
+isSimple		False
+solverMethod		saw
+compiler		python-2.7.10
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		845993285.02
+valueInit		-28
+valueBest		-35
+valueTarget		-35.0
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+**completing P.lop_Main**
+# Thu Sep 10 23:49:09 EDT 2015 .. completed P.lopP
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 
+
+

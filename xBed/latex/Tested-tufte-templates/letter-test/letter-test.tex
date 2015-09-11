@@ -1,0 +1,47 @@
+\documentclass{tufte-handout}
+
+\title{}
+\author{}
+%\date{March 31, 2015}
+
+%% local new commands for THIS document
+\newcommand{\labs}{\texttt{labs}}
+
+
+\begin{document}
+\vspace*{-2ex}
+\section*{March 31, 2015}
+
+\section*{Dear Dr.  Strangelove:}
+
+\lipsum[4]
+
+Here are a number of citationson \labs\ problem we cite in our research
+article\cite{Lib-OPUS-labs-2004-IEEE_TIT-Borwein}\cite[1.5ex]{Lib-OPUS-labs-2004-IEEE_TIT-Parker-Legendre}.
+The latest paper, based on constructive methods that
+combine Legendre/Jacobi sequences and a steepest descent algorithm,
+reports merit factors approaching the value of 6.4382. 
+This paper has been recommended  by Associate Editor for Sequences in 2011, M. G. Parker\cite[1.5ex]{Lib-OPUS-labs-2011-IEEE_TIT-Baden-Jacobi}.
+The largest {\em proven} asymptotic merit factor of 6, for quarter-rotated Legendre 
+sequences, has been published in 1991\cite[1.5ex]{Lib-OPUS-labs-1991-IEEE_TIT-Jensen-cyclic-difference_sets}.
+
+\lipsum[4]  
+A project similar to ours is the on-going effort on the computation of the optimal Golomb 
+rulers\cite[1.5ex]{WEB-Project-Golomb_Rulers}\cite[1.5ex]{WEB-Wikipedia-Golomb_Rulers}.
+Also, here is an article about the clique problem\cite[1.5ex]{WEB-Wikipedia-Clique_problem}.
+\lipsum[4]
+
+\newthought{Many thanks.} 
+\par\vspace*{2ex}
+Sincerely,
+\par\vspace*{2ex}
+Ann Brown, John Doe, and Fred Somebody
+
+\clearpage
+
+% NOTE: only the file bibTemp.bib is in the local directory of this document!!
+\bibliography{\detokenize{../../OPUS},\detokenize{../../OPUS2},\detokenize{./bibTemp}}
+%\bibliographystyle{plainnat}
+\bibliographystyle{unsrt}
+
+\end{document}

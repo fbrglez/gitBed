@@ -1,0 +1,5 @@
+# thisFile = xPeriment-P.lopT-100-simple-20150723-1902-VCL/xPer-P.lopT-VCL-pal-23-161-100-1902-sample.txt 
+# configuration file = xPeriment-P.lopT-100-simple-20150723-1902-VCL.tcl 
+# created on Thu Jul 23 20:46:24 EDT 2015 
+#
+instanceID	instanceDim	hostID	sandboxID	solverName	valueTarget	valueBest	targetReached	isCensored	runtimeLmt	runtime	cntProbe	walkLength	cntRestart	speedProbe	coordBest

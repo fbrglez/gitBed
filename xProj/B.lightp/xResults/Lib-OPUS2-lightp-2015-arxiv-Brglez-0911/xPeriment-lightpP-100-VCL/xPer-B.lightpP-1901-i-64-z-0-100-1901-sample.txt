@@ -1,0 +1,8 @@
+# thisFile = xPeriment-B.lightpP-1901/xPer-B.lightpP-1901-i-64-z-0-100-1901-sample.txt 
+# configuration file = xPeriment-B.lightpP-1901.tcl 
+# created on Sat Aug 29 18:48:54 EDT 2015 
+#
+instanceID	instanceDim	hostID	sandboxID	solverName	valueTarget	valueBest	targetReached	isCensored	runtimeLmt	runtime	cntProbe	walkLength	cntRestart	speedProbe	coordBest
+i-64-z-0-1-1901	64	brglez@bn19-238-Linux-3.10.0-229.4.2.el7.x86_64	B.lightp	B.lightpP	0.0	1	0	1	1800.0	1.80e+03	451017	225507	0	250	0000010011110001100100001111011000001110100111000001101101000011
+i-64-z-0-2-53335	64	brglez@bn19-238-Linux-3.10.0-229.4.2.el7.x86_64	B.lightp	B.lightpP	0.0	0	1	0	1800.0	1.22e+03	310245	155121	0	253	1100001111011011001111000111111001111110001111001101101111000011
+i-64-z-0-3-567930	64	brglez@bn19-238-Linux-3.10.0-229.4.2.el7.x86_64	B.lightp	B.lightpP	0.0	0	1	0	1800.0	121.	29617	14807	0	244	1100001111011011001111000111111001111110001111001101101111000011

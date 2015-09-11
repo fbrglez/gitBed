@@ -1,0 +1,141 @@
+triangle: xWork/ % pwd
+/Users/brglez/Sites/~SYNC/gitBed/xProj/B.lightp/xWork
+
+triangle: xWork/ % ../xBin/B.lightpT
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+# progName = B.lightpT 
+# progArgs =  
+# Thu Sep 10 23:13:30 EDT 2015 
+
+USAGE: 
+under TkCon shell (which has sourced ../xLib/all_tcl):
+   B.lightp.main instanceDef [optional_arguments]
+   
+under bash, invoking the 'tcl executable B.lightpT' which sources libraries directly
+  ../xBin/B.lightpT instanceDef [optional_arguments]
+  
+under bash, invoking the 'python executable B.lightpP' which sources libraries directly
+  ../xBin/B.lightpP instanceDef [optional_arguments]
+  
+  under bash, invoking the 'compiled C++ code as as a binary B.lightpX' 
+  ../xBin/B.lightpX  instanceDef [optional_arguments]
+  
+EXAMPLES:
+  B.lightp.main     i-9-a-0  -isInitOnly
+  B.lightp.main     i-9-a-0  -seedInit 1215  
+  ../xBin/B.lightpT i-9-a-0  -seedInit 1215  -coordInit 101100101 -isSimple
+  ../xBin/B.lightpP i-9-a-0  -seedInit 1215  -coordInit 101100101  
+  ../xBin/B.lightpT i-25-a-0 -seedInit 1215  -runtimeLmt 5 -isSimple 
+  ../xBin/B.lightpT i-25-a-0 -seedInit 1215  -runtimeLmt 5  
+  
+DESCRIPTION:  
+B.lightp.main, B.lightpT, B.lightpP, or B.lightpX take one REQUIRED argument
+
+    instanceDef  (an instance name recognized under B.lightp/xBenchm)
+    
+and a number of OPTIONAL arguments in any order. 
+
+Here is a complete list of 'name defaultValue' options, with short 
+in-line descriptions for each option:
+
+  -runtimeLmt       30            Stop if the solver runtime exceeds these many seconds.
+  -cntProbeLmt      2147483647    Stop if the solver reaches this value.
+  -cntRestartLmt    2147483647    Stop if the solver reaches this value.
+  -walkLengthLmt    2147483647    Stop if the solver reaches this value.
+  -seedInit         NA            If NA, a random positive integer is created to initialize a
+                                  random number generator.
+  -coordInit        NA            If NA, a random binary coordinate is generated internally as a binary string
+                                  of size nDim — unless the initial coordinate is entered by the user.
+  -valueTol         0.0           A coefficient to adjust valueTarget = valueTarget*(1 + valueTol) where
+                                  valueTarget is read from the standardized file B.lightp.info_solutions.txt.
+  -walkSegmLmt      NA            Inactive unless assigned an integer or if walkSegmCoef is assigned a real value.
+  -walkSegmCoef     NA            A coefficient that determines walkSegmLmt as walkSegmCoef*nDim.
+  -isSimple         FALSE         If asserted, simpler-to-code but less efficient procedures are invoked.
+  -isInitOnly       FALSE         If asserted, only the procedure *.init is invoked, solver exits afterwards.
+  -isWalkTables     FALSE         Walk tables are generated if both isWalkTables AND isSimple are asserted.
+  -writeVar         0             An integer variable to control levels of stdout:
+                                  If 0, do stdout with minimum lines of text.
+                                  If 1, do stdout of all variable values initialized under procedure *.init.
+                                  If 2, do stdout of cntRestart trace.
+                                  If 3, do stdout of distance=1 neighborhood probing and pivot selection.
+
+DETAILS:
+This solver reads from an instance name of the 'lights-out puzzle 
+problem' associated with a binary string which can be of length 4=2*2, 
+6=2*3, 9=3*3, 12=3*4, 16=4*4, 20=4*5, 25=5*5, 30=5*6, 36=6*6, 42=6*7, etc. 
+This string represents lights that are 'on' in a rectangular matrix of 
+size L=M*N. The solver returns a solution as a coordinate:value pair:
+the coordinate is a binary string of length L, and the minimum
+value is 0 for most instances; for some instances, the minimum
+value is 1. 
+
+For the instance shown below, there exist a single solution only!
+                 
+instanceInit     solutionBest
+ 001001011         001101001
+lights-on= 4     lights-on= 0
+------------     ------------                
+  0 0 1            0 0 0
+  0 0 1            0 0 0 
+  0 1 1            0 0 0
+
+# Thu Sep 10 23:13:30 EDT 2015 .. completed B.lightpT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+triangle: xWork/ % ../xBin/B.lightpT i-9-z-0  -seedInit 1215
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+# progName = B.lightpT 
+# progArgs = i-9-z-0 -seedInit 1215 
+# Thu Sep 10 23:14:19 EDT 2015 
+# FROM: B.lightp.init:
+# instanceDef=i-9-z-0 
+# argsOptions=-seedInit 1215
+# --------------------------------------------------------------------------- 
+# .. completed initialization of all variables under B.lightp.init.
+# .. proceeding with the search under solverID = B.lightpT 
+# ---------------------------------------------------------------------------
+# FROM: B.lightp.saw, searching for pivotBest via B.lightp.saw_pivot**
+# FROM B.lightp.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.lightp.main  i-9-z-0 -seedInit 1215 
+#    dateLine = Thu Sep 10 23:14:19 EDT 2015  
+#   timeStamp = 20150911031419  
+#
+instanceDef		i-9-z-0
+instanceInit		111111111
+solverID		B.lightpT
+solverMethod		saw
+isSimple		FALSE
+coordInit		100000101
+coordBest		101010101
+nDim		9
+walkLengthLmt		2147483647
+walkLength		68
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		137
+runtimeLmt		30
+runtime		0.012
+runtimeRead		0.025
+speedProbe		11286
+hostID		brglez@triangle-Darwin-14.5.0
+compiler		tcl-8.6.3
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		1215
+valueInit		4
+valueBest		0
+valueTarget		0.0
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.lightpT_Main **
+# Thu Sep 10 23:14:19 EDT 2015 .. completed B.lightpT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+triangle: xWork/ % 

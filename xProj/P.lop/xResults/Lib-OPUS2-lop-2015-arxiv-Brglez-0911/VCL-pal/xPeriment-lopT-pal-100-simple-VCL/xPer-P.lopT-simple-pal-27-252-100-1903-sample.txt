@@ -1,0 +1,6 @@
+# thisFile = xPeriment-P.lopT-100-simple-152.46.19.238-1903/xPer-P.lopT-1903-pal-27-252-100-1903-sample.txt 
+# configuration file = xPeriment-P.lopT-100-simple-152.46.19.238-1903.tcl 
+# created on Fri Jul 24 08:04:10 EDT 2015 
+#
+instanceID	instanceDim	hostID	sandboxID	solverName	valueTarget	valueBest	targetReached	isCensored	runtimeLmt	runtime	cntProbe	walkLength	cntRestart	speedProbe	coordBest
+pal-27-252-1-1903	27	brglez@bn19-238-Linux-3.10.0-229.4.2.el7.x86_64	P.lop	P.lopT	-252.0	-244	0	1	7200	7.20e+03	31045311	1301761	0	4312	25,22,14,23,11,20,8,17,5,2,27,15,24,12,21,9,18,6,3,10,19,7,16,4,13,1,26

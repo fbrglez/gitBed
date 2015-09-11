@@ -1,0 +1,221 @@
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Tue Sep 01 07:10:31 EDT 2015
+args=-seedInit 1901
+# .. variables have been initialized,  proceeding with the search under method=saw_wander with option isSimple=FALSE
+# FROM: B.ogr.saw_wander, searching for pivotBest via B.ogr.fAdj**
+# WARNING from B.ogr.saw_wander: isCensored=1, runtime=3600.000118000019 > runtimeLmt=3600
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 1901 NA NA  FALSE wander 0 0 
+#    dateLine = Tue Sep 01 08:10:33 EDT 2015  
+#   timeStamp = 20150901111031  
+#
+instanceDef		12,85
+solverID		B.ogr-wander
+solverMethod		wander
+isSimple		FALSE
+coordInit		001000000000001000000000000000110010000010000010000000000000000000010000001000000000
+coordBest		000110000000010000000000010000000100000010000000000000000000000001000001000000000010
+rulerInit		0,3,15,31,32,35,41,47,68,75,85
+rulerBest		0,4,5,14,26,34,41,66,72,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		408552
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		34286036
+runtimeLmt		3600
+runtime		3600
+speedProbe		9524
+hostID		brglez@bn18-162-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		1901
+valueInit		5
+valueBest		-9
+valueTarget		-10
+valueTol		0.0
+targetReached		0
+isCensored		1
+
+** completing B.ogrT_Main **
+# Tue Sep 01 08:10:33 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Tue Sep 01 08:10:33 EDT 2015
+args=-seedInit 53335
+# .. variables have been initialized,  proceeding with the search under method=saw_wander with option isSimple=FALSE
+# FROM: B.ogr.saw_wander, searching for pivotBest via B.ogr.fAdj**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 53335 NA NA  FALSE wander 0 0 
+#    dateLine = Tue Sep 01 08:20:39 EDT 2015  
+#   timeStamp = 20150901121033  
+#
+instanceDef		12,85
+solverID		B.ogr-wander
+solverMethod		wander
+isSimple		FALSE
+coordInit		000000000000100000000000010001000000010100000010000000000000000000000000001001010000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,13,26,30,38,40,47,75,78,80,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		68021
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		5709191
+runtimeLmt		3600
+runtime		605.0
+speedProbe		9441
+hostID		brglez@bn18-162-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		53335
+valueInit		3
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Tue Sep 01 08:20:39 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Tue Sep 01 08:20:39 EDT 2015
+args=-seedInit 567930
+# .. variables have been initialized,  proceeding with the search under method=saw_wander with option isSimple=FALSE
+# FROM: B.ogr.saw_wander, searching for pivotBest via B.ogr.fAdj**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 567930 NA NA  FALSE wander 0 0 
+#    dateLine = Tue Sep 01 08:55:03 EDT 2015  
+#   timeStamp = 20150901122039  
+#
+instanceDef		12,85
+solverID		B.ogr-wander
+solverMethod		wander
+isSimple		FALSE
+coordInit		010000000000000100000000000000010100010000010000000000001000100000010000000000000000
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,2,16,32,34,38,44,57,61,68,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		234427
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		19674630
+runtimeLmt		3600
+runtime		2064
+speedProbe		9534
+hostID		brglez@bn18-162-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		567930
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Tue Sep 01 08:55:03 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Tue Sep 01 08:55:04 EDT 2015
+args=-seedInit 256020
+# .. variables have been initialized,  proceeding with the search under method=saw_wander with option isSimple=FALSE
+# FROM: B.ogr.saw_wander, searching for pivotBest via B.ogr.fAdj**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 256020 NA NA  FALSE wander 0 0 
+#    dateLine = Tue Sep 01 09:00:37 EDT 2015  
+#   timeStamp = 20150901125504  
+#
+instanceDef		12,85
+solverID		B.ogr-wander
+solverMethod		wander
+isSimple		FALSE
+coordInit		000010100010000010100000010000000000000000000000010000000000000000010000000100000000
+coordBest		000000001100000010000000000001000000000001001000000000010000100000000000000000100010
+rulerInit		0,5,7,11,17,19,26,50,68,76,85
+rulerBest		0,9,10,17,30,42,45,56,61,79,83,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		37459
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		3144119
+runtimeLmt		3600
+runtime		333.0
+speedProbe		9449
+hostID		brglez@bn18-162-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		256020
+valueInit		4
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Tue Sep 01 09:00:37 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+# .. sourced all tcl libraries defined under the sandbox (see the file all_tcl)
+# Tue Sep 01 09:00:37 EDT 2015
+args=-seedInit 304520
+# .. variables have been initialized,  proceeding with the search under method=saw_wander with option isSimple=FALSE
+# FROM: B.ogr.saw_wander, searching for pivotBest via B.ogr.fAdj**
+# FROM B.ogr.stdout: A SUMMARY OF NAME-VALUE PAIRS 
+# commandLine = B.ogr.main 12 304520 NA NA  FALSE wander 0 0 
+#    dateLine = Tue Sep 01 09:47:42 EDT 2015  
+#   timeStamp = 20150901130037  
+#
+instanceDef		12,85
+solverID		B.ogr-wander
+solverMethod		wander
+isSimple		FALSE
+coordInit		010000000000100000000000000000000000001000000000011000100001000000000000000000001100
+coordBest		010001000000000000000001000010000000000100100000000000100000000000010000001100000000
+rulerInit		0,2,13,39,50,51,55,60,81,82,85
+rulerBest		0,2,6,24,29,40,43,55,68,75,76,85
+nDim		84
+walkLengthLmt		2147483647
+walkLength		322019
+cntRestartLmt		2147483647
+cntRestart		0
+cntProbeLmt		2147483647
+cntProbe		27025186
+runtimeLmt		3600
+runtime		2824
+speedProbe		9571
+hostID		brglez@bn18-162-Linux-3.10.0-229.4.2.el7.x86_64
+compiler		tcl-8.5.13
+walkSegmLmt		NA
+walkSegmCoef		NA
+seedInit		304520
+valueInit		1
+valueBest		-10
+valueTarget		-10
+valueTol		0.0
+targetReached		1
+isCensored		0
+
+** completing B.ogrT_Main **
+# Tue Sep 01 09:47:42 EDT 2015 .. completed B.ogrT 
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
